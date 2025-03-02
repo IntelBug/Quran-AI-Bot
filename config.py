@@ -4,15 +4,15 @@ import os
 # IRC Configuration
 IRC_SERVER = os.getenv("IRC_SERVER", "irc.dal.net")
 IRC_PORT = int(os.getenv("IRC_PORT", 6667))
-BOT_NICK = os.getenv("BOT_NICK", "Falah")
-ALT_NICK = os.getenv("ALT_NICK", "AL-Falah")
-BOT_PASSWORD = os.getenv("BOT_PASSWORD", "786@786")
+BOT_NICK = os.getenv("BOT_NICK", "NickName")
+ALT_NICK = os.getenv("ALT_NICK", "AltNick")
+BOT_PASSWORD = os.getenv("BOT_PASSWORD", "PassWord")
 BOT_CHANNELS = os.getenv("BOT_CHANNELS", "#Margalla").split(",")
 BOT_OWNER = os.getenv("BOT_OWNER", "IntelBug")
 
 # AI API Configuration
 AI_API_URL = os.getenv("AI_API_URL", "https://api.mistral.ai/v1/chat/completions")
-AI_API_KEY = os.getenv("AI_API_KEY", "iQDc4Y877xj2NyOup7IRdkX2vZ5j5pJW")
+AI_API_KEY = os.getenv("AI_API_KEY", "actualKey")
 
 # Database Configuration
 DB_PATH = os.getenv("DB_PATH", "quran_kb.db")
