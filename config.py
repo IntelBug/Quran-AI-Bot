@@ -8,7 +8,7 @@ BOT_NICK = os.getenv("BOT_NICK", "NickName")
 ALT_NICK = os.getenv("ALT_NICK", "AltNick")
 BOT_PASSWORD = os.getenv("BOT_PASSWORD", "PassWord")
 BOT_CHANNELS = os.getenv("BOT_CHANNELS", "#Margalla").split(",")
-BOT_OWNER = os.getenv("BOT_OWNER", "IntelBug")
+BOT_OWNER = os.getenv("BOT_OWNER", "OwnerNick")
 
 # AI API Configuration
 AI_API_URL = os.getenv("AI_API_URL", "https://api.mistral.ai/v1/chat/completions")
