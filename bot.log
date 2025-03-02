@@ -1,0 +1,992 @@
+2025-03-02 17:44:25,123 - root - INFO - IRC connection cancelled.
+2025-03-02 17:44:27,732 - root - INFO - Starting the bot application.
+2025-03-02 17:44:27,734 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-02 17:44:27,735 - root - INFO - Starting the bot...
+2025-03-02 17:44:28,516 - root - INFO - Successfully connected to IRC server.
+2025-03-02 17:44:33,518 - root - DEBUG - Received: :sakura.jp.as.dal.net NOTICE AUTH :*** Looking up your hostname...
+2025-03-02 17:44:33,519 - root - DEBUG - Handling message: :sakura.jp.as.dal.net NOTICE AUTH :*** Looking up your hostname...
+2025-03-02 17:44:33,524 - root - DEBUG - Received: :sakura.jp.as.dal.net NOTICE AUTH :*** Checking Ident
+2025-03-02 17:44:33,526 - root - DEBUG - Handling message: :sakura.jp.as.dal.net NOTICE AUTH :*** Checking Ident
+2025-03-02 17:44:33,527 - root - DEBUG - Received: :sakura.jp.as.dal.net NOTICE AUTH :*** Found your hostname
+2025-03-02 17:44:33,528 - root - DEBUG - Handling message: :sakura.jp.as.dal.net NOTICE AUTH :*** Found your hostname
+2025-03-02 17:45:05,490 - root - DEBUG - Received: :sakura.jp.as.dal.net NOTICE AUTH :*** No Ident response
+2025-03-02 17:45:05,491 - root - DEBUG - Handling message: :sakura.jp.as.dal.net NOTICE AUTH :*** No Ident response
+2025-03-02 17:45:05,496 - root - DEBUG - Received: :sakura.jp.as.dal.net 001 Falah :Welcome to the DALnet IRC Network Falah!~Falah@39.40.48.44
+2025-03-02 17:45:05,496 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 001 Falah :Welcome to the DALnet IRC Network Falah!~Falah@39.40.48.44
+2025-03-02 17:45:05,499 - root - INFO - Successfully authenticated with nick: Falah
+2025-03-02 17:45:05,500 - root - INFO - Joining channel: #Margalla
+2025-03-02 17:45:07,001 - root - DEBUG - Received: :sakura.jp.as.dal.net 002 Falah :Your host is sakura.jp.as.dal.net, running version bahamut-2.2.4
+2025-03-02 17:45:07,003 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 002 Falah :Your host is sakura.jp.as.dal.net, running version bahamut-2.2.4
+2025-03-02 17:45:07,007 - root - DEBUG - Received: :sakura.jp.as.dal.net 003 Falah :This server was created Sat Nov 23 2024 at 20:05:50 UTC
+2025-03-02 17:45:07,008 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 003 Falah :This server was created Sat Nov 23 2024 at 20:05:50 UTC
+2025-03-02 17:45:07,011 - root - DEBUG - Received: :sakura.jp.as.dal.net 004 Falah sakura.jp.as.dal.net bahamut-2.2.4 aAbcCdefFghHiIjkKmnoOPrRsSwxXy AbceiIjklLmMnoOpPrRsStv beIjklov
+2025-03-02 17:45:07,012 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 004 Falah sakura.jp.as.dal.net bahamut-2.2.4 aAbcCdefFghHiIjkKmnoOPrRsSwxXy AbceiIjklLmMnoOpPrRsStv beIjklov
+2025-03-02 17:45:07,013 - root - DEBUG - Received: :sakura.jp.as.dal.net 005 Falah NETWORK=DALnet SAFELIST MAXBANS=200 MAXCHANNELS=50 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:50 PREFIX=(ohv)@%+ STATUSMSG=@%+ :are available on this server
+2025-03-02 17:45:07,013 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 005 Falah NETWORK=DALnet SAFELIST MAXBANS=200 MAXCHANNELS=50 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:50 PREFIX=(ohv)@%+ STATUSMSG=@%+ :are available on this server
+2025-03-02 17:45:07,014 - root - DEBUG - Received: :sakura.jp.as.dal.net 005 Falah CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,ciPAmMnOprRsSt MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2025-03-02 17:45:07,015 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 005 Falah CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,ciPAmMnOprRsSt MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2025-03-02 17:45:07,016 - root - DEBUG - Received: :sakura.jp.as.dal.net 251 Falah :There are 60 users and 6218 invisible on 39 servers
+2025-03-02 17:45:07,017 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 251 Falah :There are 60 users and 6218 invisible on 39 servers
+2025-03-02 17:45:07,018 - root - DEBUG - Received: :sakura.jp.as.dal.net 252 Falah 72 :IRC Operators online
+2025-03-02 17:45:07,024 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 252 Falah 72 :IRC Operators online
+2025-03-02 17:45:07,025 - root - DEBUG - Received: :sakura.jp.as.dal.net 254 Falah 3392 :channels formed
+2025-03-02 17:45:07,025 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 254 Falah 3392 :channels formed
+2025-03-02 17:45:07,026 - root - DEBUG - Received: :sakura.jp.as.dal.net 255 Falah :I have 1669 clients and 1 servers
+2025-03-02 17:45:07,027 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 255 Falah :I have 1669 clients and 1 servers
+2025-03-02 17:45:07,027 - root - DEBUG - Received: :sakura.jp.as.dal.net 265 Falah :Current local users: 1669 Max: 3677
+2025-03-02 17:45:07,028 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 265 Falah :Current local users: 1669 Max: 3677
+2025-03-02 17:45:07,030 - root - DEBUG - Received: :sakura.jp.as.dal.net 266 Falah :Current global users: 6278 Max: 12059
+2025-03-02 17:45:07,030 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 266 Falah :Current global users: 6278 Max: 12059
+2025-03-02 17:45:07,030 - root - DEBUG - Received: :sakura.jp.as.dal.net NOTICE Falah :*** Notice -- motd was last changed at 23/1/2024 15:37
+2025-03-02 17:45:07,031 - root - DEBUG - Handling message: :sakura.jp.as.dal.net NOTICE Falah :*** Notice -- motd was last changed at 23/1/2024 15:37
+2025-03-02 17:45:07,032 - root - DEBUG - Received: :sakura.jp.as.dal.net 375 Falah :- sakura.jp.as.dal.net Message of the Day -
+2025-03-02 17:45:07,033 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 375 Falah :- sakura.jp.as.dal.net Message of the Day -
+2025-03-02 17:45:07,037 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-23/1/2024 15:37
+2025-03-02 17:45:07,038 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-23/1/2024 15:37
+2025-03-02 17:45:07,039 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,040 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,040 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,041 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,042 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Server: sakura.jp.as.dal.net
+2025-03-02 17:45:07,042 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Server: sakura.jp.as.dal.net
+2025-03-02 17:45:07,043 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Plaintext ports: 6660 - 6669, 7000
+2025-03-02 17:45:07,044 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Plaintext ports: 6660 - 6669, 7000
+2025-03-02 17:45:07,044 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- SSL/TLS port: 6697
+2025-03-02 17:45:07,045 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- SSL/TLS port: 6697
+2025-03-02 17:45:07,045 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Both IPv4 and IPv6 are supported on this server
+2025-03-02 17:45:07,046 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Both IPv4 and IPv6 are supported on this server
+2025-03-02 17:45:07,046 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,047 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,048 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Server Administrator: xPsycho (xpsycho@DAL.net)
+2025-03-02 17:45:07,048 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Server Administrator: xPsycho (xpsycho@DAL.net)
+2025-03-02 17:45:07,049 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Operators: toolman (toolman@DAL.net)
+2025-03-02 17:45:07,054 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Operators: toolman (toolman@DAL.net)
+2025-03-02 17:45:07,055 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,056 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,056 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,057 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,058 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-            __.--~~.,-.__
+2025-03-02 17:45:07,058 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-            __.--~~.,-.__
+2025-03-02 17:45:07,059 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-            `~-._.-(`-.__`-.
+2025-03-02 17:45:07,059 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-            `~-._.-(`-.__`-.
+2025-03-02 17:45:07,060 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-                    \    `~~`
+2025-03-02 17:45:07,061 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-                    \    `~~`
+2025-03-02 17:45:07,061 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-               .--./ \
+2025-03-02 17:45:07,062 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-               .--./ \
+2025-03-02 17:45:07,062 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-              /#   \  \.--.
+2025-03-02 17:45:07,063 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-              /#   \  \.--.
+2025-03-02 17:45:07,064 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-              \    /  /#   \
+2025-03-02 17:45:07,065 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-              \    /  /#   \
+2025-03-02 17:45:07,069 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-          jgs  '--'   \    /
+2025-03-02 17:45:07,069 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-          jgs  '--'   \    /
+2025-03-02 17:45:07,070 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-                       '--'
+2025-03-02 17:45:07,070 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-                       '--'
+2025-03-02 17:45:07,071 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,071 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,072 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- This server is proudly sponsored by DataPacket.com
+2025-03-02 17:45:07,073 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- This server is proudly sponsored by DataPacket.com
+2025-03-02 17:45:07,073 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-       <https://www.datapacket.com/>
+2025-03-02 17:45:07,074 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-       <https://www.datapacket.com/>
+2025-03-02 17:45:07,075 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,075 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,076 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,076 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,077 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,078 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,078 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Welcome to DALnet!  By connecting to this network, you agree to abide
+2025-03-02 17:45:07,079 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Welcome to DALnet!  By connecting to this network, you agree to abide
+2025-03-02 17:45:07,083 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- by its acceptable use policy available at: https://www.dal.net/aup
+2025-03-02 17:45:07,084 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- by its acceptable use policy available at: https://www.dal.net/aup
+2025-03-02 17:45:07,085 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,085 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,086 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- We reserve the right to deny access to this server to anyone at any
+2025-03-02 17:45:07,087 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- We reserve the right to deny access to this server to anyone at any
+2025-03-02 17:45:07,087 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- time without warning or explanation.
+2025-03-02 17:45:07,088 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- time without warning or explanation.
+2025-03-02 17:45:07,088 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,089 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,089 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- To help prevent abuse, this server will check your PC for open proxy
+2025-03-02 17:45:07,090 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- To help prevent abuse, this server will check your PC for open proxy
+2025-03-02 17:45:07,091 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- servers when you connect. If you do not want this test performed, do
+2025-03-02 17:45:07,091 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- servers when you connect. If you do not want this test performed, do
+2025-03-02 17:45:07,092 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- not connect.
+2025-03-02 17:45:07,092 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- not connect.
+2025-03-02 17:45:07,093 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,094 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,095 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,100 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,101 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,101 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,102 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- If you need general IRC assistance or help with services commands,
+2025-03-02 17:45:07,103 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- If you need general IRC assistance or help with services commands,
+2025-03-02 17:45:07,103 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- please view our multilingual documentation at http://docs.dal.net/
+2025-03-02 17:45:07,104 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- please view our multilingual documentation at http://docs.dal.net/
+2025-03-02 17:45:07,104 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,105 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,105 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- If your question is not answered after reading our documention,
+2025-03-02 17:45:07,106 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- If your question is not answered after reading our documention,
+2025-03-02 17:45:07,106 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- please /join #help for general questions or /join #OperHelp if you
+2025-03-02 17:45:07,107 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- please /join #help for general questions or /join #OperHelp if you
+2025-03-02 17:45:07,108 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- require the immediate assistance of an IRC Operator.
+2025-03-02 17:45:07,108 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- require the immediate assistance of an IRC Operator.
+2025-03-02 17:45:07,109 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,109 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,110 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,110 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,115 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,115 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,116 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- Thank you, and enjoy your day!
+2025-03-02 17:45:07,117 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- Thank you, and enjoy your day!
+2025-03-02 17:45:07,118 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,118 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,118 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,119 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :- =====================================================================
+2025-03-02 17:45:07,119 - root - DEBUG - Received: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,120 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 372 Falah :-
+2025-03-02 17:45:07,121 - root - DEBUG - Received: :sakura.jp.as.dal.net 376 Falah :End of /MOTD command.
+2025-03-02 17:45:07,121 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 376 Falah :End of /MOTD command.
+2025-03-02 17:45:07,121 - root - DEBUG - Received: :Falah MODE Falah :+iH
+2025-03-02 17:45:07,122 - root - DEBUG - Handling message: :Falah MODE Falah :+iH
+2025-03-02 17:45:07,123 - root - DEBUG - Received: :Falah!~Falah@4597-4d97-1523-557c-be10.40.39.ip JOIN :#Margalla
+2025-03-02 17:45:07,124 - root - DEBUG - Handling message: :Falah!~Falah@4597-4d97-1523-557c-be10.40.39.ip JOIN :#Margalla
+2025-03-02 17:45:07,124 - root - DEBUG - Received: :sakura.jp.as.dal.net 332 Falah #Margalla :Welcome to #Margalla! Type '!Quran' and your query to learn and find answers from Quran!
+2025-03-02 17:45:07,125 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 332 Falah #Margalla :Welcome to #Margalla! Type '!Quran' and your query to learn and find answers from Quran!
+2025-03-02 17:45:07,125 - root - DEBUG - Received: :sakura.jp.as.dal.net 333 Falah #Margalla IntelBug!~IntelBug@71a4-27a2-c57f-23b5-526.40.39.ip 1740215519
+2025-03-02 17:45:07,126 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 333 Falah #Margalla IntelBug!~IntelBug@71a4-27a2-c57f-23b5-526.40.39.ip 1740215519
+2025-03-02 17:45:07,126 - root - DEBUG - Received: :sakura.jp.as.dal.net 353 Falah = #Margalla :Falah @IntelBug Al-Falah_ @Cheer
+2025-03-02 17:45:07,127 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 353 Falah = #Margalla :Falah @IntelBug Al-Falah_ @Cheer
+2025-03-02 17:45:07,132 - root - DEBUG - Received: :sakura.jp.as.dal.net 366 Falah #Margalla :End of /NAMES list.
+2025-03-02 17:45:07,133 - root - DEBUG - Handling message: :sakura.jp.as.dal.net 366 Falah #Margalla :End of /NAMES list.
+2025-03-02 17:45:07,134 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :This nick is owned by someone else. Please choose another.
+2025-03-02 17:45:07,134 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :This nick is owned by someone else. Please choose another.
+2025-03-02 17:45:07,135 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :If this is your nick, type: /msg NickServ@services.dal.net IDENTIFY <password>
+2025-03-02 17:45:07,136 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :If this is your nick, type: /msg NickServ@services.dal.net IDENTIFY <password>
+2025-03-02 17:45:07,137 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :Your nick will be changed in 60 seconds if you do not comply.
+2025-03-02 17:45:07,137 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :Your nick will be changed in 60 seconds if you do not comply.
+2025-03-02 17:45:07,138 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :Password accepted for Falah.
+2025-03-02 17:45:07,138 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :Password accepted for Falah.
+2025-03-02 17:45:07,140 - root - DEBUG - Received: :Falah MODE Falah :+r
+2025-03-02 17:45:07,140 - root - DEBUG - Handling message: :Falah MODE Falah :+r
+2025-03-02 17:45:07,140 - root - DEBUG - Received: :ChanServ!service@dal.net MODE #Margalla +o Falah
+2025-03-02 17:45:07,140 - root - DEBUG - Handling message: :ChanServ!service@dal.net MODE #Margalla +o Falah
+2025-03-02 17:45:07,141 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #Margalla :Salam and welcome back, Falah!
+2025-03-02 17:45:07,141 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #Margalla :Salam and welcome back, Falah!
+2025-03-02 17:45:07,146 - root - DEBUG - Parsed nick from prefix: Cheer
+2025-03-02 17:45:07,148 - root - DEBUG - Parsed sender_nick: Cheer
+2025-03-02 17:45:07,148 - root - DEBUG - Parsed PM/msg: Cheer -> #Margalla: Salam and welcome back, Falah!
+2025-03-02 17:45:07,149 - root - DEBUG - Processing message: nick=Cheer, channel=#Margalla, message=Salam and welcome back, Falah!
+2025-03-02 17:45:07,211 - root - INFO - Handling help command from Cheer in Cheer.
+2025-03-02 17:45:07,212 - root - INFO - Sending chunked message to Cheer: Assalam-o-Alaikum! I am here to provide very easy and authentic Qur'an Search. Just type !Quran <any Surah name, Ayat content, topic, keywords, or question> to find relevant Surah and Ayaat in 37 languages.
+2025-03-02 17:45:07,214 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:45:08,853 - root - INFO - Sending chunked message to Cheer: To mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. You can also use !stop to stop the result. Have your blessed time on IRC :)
+2025-03-02 17:45:08,853 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:45:10,574 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "Assalam-o-Alaikum!" is not a valid command.
+2025-03-02 17:45:10,575 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "Assalam-o-Alaikum!" is not a valid command.
+2025-03-02 17:45:10,579 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "To" is not a valid command.
+2025-03-02 17:45:10,582 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "To" is not a valid command.
+2025-03-02 17:45:13,525 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:45:13,525 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:45:13,528 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 17:45:13,528 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 17:45:13,530 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !counts
+2025-03-02 17:45:13,531 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!counts
+2025-03-02 17:45:13,594 - root - INFO - Handling help command from IntelBug in IntelBug.
+2025-03-02 17:45:13,595 - root - INFO - Sending chunked message to IntelBug: Assalam-o-Alaikum! I am here to provide very easy and authentic Qur'an Search. Just type !Quran <any Surah name, Ayat content, topic, keywords, or question> to find relevant Surah and Ayaat in 37 languages.
+2025-03-02 17:45:13,597 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:15,389 - root - INFO - Sending chunked message to IntelBug: To mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. You can also use !stop to stop the result. Have your blessed time on IRC :)
+2025-03-02 17:45:15,390 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:17,280 - root - INFO - Handling counts command from IntelBug in IntelBug.
+2025-03-02 17:45:17,281 - root - DEBUG - Checking ownership: received nick='IntelBug', configured owner='IntelBug'
+2025-03-02 17:45:26,833 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!help
+2025-03-02 17:45:26,833 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!help
+2025-03-02 17:45:26,838 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 17:45:26,839 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 17:45:26,841 - root - DEBUG - Parsed PM/msg: IntelBug -> #margalla: !help
+2025-03-02 17:45:26,842 - root - DEBUG - Processing message: nick=IntelBug, channel=#margalla, message=!help
+2025-03-02 17:45:26,907 - root - INFO - Handling help command from IntelBug in #margalla.
+2025-03-02 17:45:26,908 - root - INFO - Sending chunked message to #margalla: I am here to provide very easy and authentic Qur'an Search. You can ask about the Qur'anic Ayaat (Verses) based on topic, keywords, Surah name, Ayat content and questions.
+2025-03-02 17:45:26,912 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:28,976 - root - INFO - Sending chunked message to #margalla: - You can just type !Quran <your query> and I will search for Surah and Ayat relevant to your query.
+2025-03-02 17:45:28,977 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:31,169 - root - INFO - Sending chunked message to #margalla: - You can stop me if result is very long or not relevant by entering !stop.
+2025-03-02 17:45:31,170 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:33,461 - root - INFO - Sending chunked message to #margalla: - To display this help message again, enter !help.
+2025-03-02 17:45:33,461 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:35,844 - root - INFO - Sending chunked message to #margalla: I can translate Qur'an in 36 languages. Just mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. Have your blessed time on IRC :)
+2025-03-02 17:45:35,845 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 17:45:38,360 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :I am here to provide very easy and authentic Quran Search. You can ask about the Quranic Ayaat (Verses) based on topic, keywords, Surah name, Ayat content and questions.
+2025-03-02 17:45:38,361 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :I am here to provide very easy and authentic Quran Search. You can ask about the Quranic Ayaat (Verses) based on topic, keywords, Surah name, Ayat content and questions.
+2025-03-02 17:45:38,367 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:45:38,368 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:45:38,370 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: I am here to provide very easy and authentic Quran Search. You can ask about the Quranic Ayaat (Verses) based on topic, keywords, Surah name, Ayat content and questions.
+2025-03-02 17:45:38,371 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=I am here to provide very easy and authentic Quran Search. You can ask about the Quranic Ayaat (Verses) based on topic, keywords, Surah name, Ayat content and questions.
+2025-03-02 17:45:38,407 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :- You can just type !Quran <your query> and I will search for Surah and Ayat relevant to your query.
+2025-03-02 17:45:38,408 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :- You can just type !Quran <your query> and I will search for Surah and Ayat relevant to your query.
+2025-03-02 17:45:38,411 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:45:38,411 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:45:38,413 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: - You can just type !Quran <your query> and I will search for Surah and Ayat relevant to your query.
+2025-03-02 17:45:38,414 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=- You can just type !Quran <your query> and I will search for Surah and Ayat relevant to your query.
+2025-03-02 17:45:38,441 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :- You can stop me if result is very long or not relevant by entering !stop.
+2025-03-02 17:45:38,441 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :- You can stop me if result is very long or not relevant by entering !stop.
+2025-03-02 17:45:38,442 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:45:38,444 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:45:38,445 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: - You can stop me if result is very long or not relevant by entering !stop.
+2025-03-02 17:45:38,445 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=- You can stop me if result is very long or not relevant by entering !stop.
+2025-03-02 17:45:41,936 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :- To display this help message again, enter !help.
+2025-03-02 17:45:41,936 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :- To display this help message again, enter !help.
+2025-03-02 17:45:41,941 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:45:41,943 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:45:41,945 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: - To display this help message again, enter !help.
+2025-03-02 17:45:41,946 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=- To display this help message again, enter !help.
+2025-03-02 17:45:47,044 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :I can translate Quran in 36 languages. Just mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. Have your blessed time on IRC :)
+2025-03-02 17:45:47,045 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :I can translate Quran in 36 languages. Just mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. Have your blessed time on IRC :)
+2025-03-02 17:45:47,052 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:45:47,055 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:45:47,056 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: I can translate Quran in 36 languages. Just mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. Have your blessed time on IRC :)
+2025-03-02 17:45:47,056 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=I can translate Quran in 36 languages. Just mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. Have your blessed time on IRC :)
+2025-03-02 17:46:06,559 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:46:06,560 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:46:06,566 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 17:46:06,566 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 17:46:06,568 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !counts
+2025-03-02 17:46:06,569 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!counts
+2025-03-02 17:46:06,636 - root - INFO - Handling counts command from IntelBug in IntelBug.
+2025-03-02 17:46:06,636 - root - DEBUG - Checking ownership: received nick='IntelBug', configured owner='IntelBug'
+2025-03-02 17:47:43,678 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!Quran zakat urdu
+2025-03-02 17:47:43,679 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!Quran zakat urdu
+2025-03-02 17:47:43,687 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 17:47:43,688 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 17:47:43,691 - root - DEBUG - Parsed PM/msg: IntelBug -> #margalla: !Quran zakat urdu
+2025-03-02 17:47:43,692 - root - DEBUG - Processing message: nick=IntelBug, channel=#margalla, message=!Quran zakat urdu
+2025-03-02 17:47:43,759 - root - INFO - Handling !Quran command from IntelBug in #margalla with query: zakat urdu
+2025-03-02 17:47:43,759 - root - INFO - Processing query for IntelBug in #margalla with query: zakat urdu
+2025-03-02 17:47:46,465 - root - INFO - Sending structured query to AI: {'model': 'mistral-small-latest', 'messages': [{'role': 'system', 'content': "Return only Surah and Ayat number(s) of the Ayat(s) relevant to the query in the below format: Language: ISO code:Unicode Direction; Surah Number: Ayat Number, Surah Number: Ayat Number, Surah Number: Ayat Number. Example: Language: ur:RTL; 108:10, 8:12, 10:20. Return all Ayats of a Surah in sequence if the query specifies so. Result must contain unique Ayats of a Surah and do not repeat Ayat of the same Surah in a result. Must return accurate results and ensure moderation for the criticality of religious information. Query and result mapping shall start with Surah name, Ayat content, Ayat meaning and then Tafseer to get a complete context. Don't include Ayat content and other information in the response. Mention the ISO language code and Right-to-Left flag e.g. RTL or LTR of query used by the user e.g. Language: en:LTR."}, {'role': 'user', 'content': 'zakat urdu'}]}
+2025-03-02 17:47:57,101 - root - ERROR - AI request timed out.
+2025-03-02 17:48:03,021 - root - INFO - Cleaning up resources for IntelBug.
+2025-03-02 17:48:03,021 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :Your query has been queued. You will receive a response shortly.
+2025-03-02 17:48:03,026 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :Your query has been queued. You will receive a response shortly.
+2025-03-02 17:48:03,027 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:48:03,029 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:48:03,031 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: Your query has been queued. You will receive a response shortly.
+2025-03-02 17:48:03,033 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=Your query has been queued. You will receive a response shortly.
+2025-03-02 17:48:03,064 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:48:03,065 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:48:03,068 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:48:03,068 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:48:03,070 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:48:03,071 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:52:18,590 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:52:18,591 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:52:18,596 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 17:52:18,597 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 17:52:18,597 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !counts
+2025-03-02 17:52:18,598 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!counts
+2025-03-02 17:52:18,670 - root - INFO - Handling counts command from IntelBug in IntelBug.
+2025-03-02 17:52:18,671 - root - DEBUG - Checking ownership: received nick='IntelBug', configured owner='IntelBug'
+2025-03-02 17:52:37,060 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :!Quran maauon
+2025-03-02 17:52:37,060 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :!Quran maauon
+2025-03-02 17:52:37,064 - root - DEBUG - Parsed nick from prefix: Cheer
+2025-03-02 17:52:37,065 - root - DEBUG - Parsed sender_nick: Cheer
+2025-03-02 17:52:37,066 - root - DEBUG - Parsed PM/msg: Cheer -> #margalla: !Quran maauon
+2025-03-02 17:52:37,066 - root - DEBUG - Processing message: nick=Cheer, channel=#margalla, message=!Quran maauon
+2025-03-02 17:52:37,137 - root - INFO - Handling !Quran command from Cheer in #margalla with query: maauon
+2025-03-02 17:52:37,137 - root - INFO - Processing query for Cheer in #margalla with query: maauon
+2025-03-02 17:52:40,438 - root - INFO - Sending structured query to AI: {'model': 'mistral-small-latest', 'messages': [{'role': 'system', 'content': "Return only Surah and Ayat number(s) of the Ayat(s) relevant to the query in the below format: Language: ISO code:Unicode Direction; Surah Number: Ayat Number, Surah Number: Ayat Number, Surah Number: Ayat Number. Example: Language: ur:RTL; 108:10, 8:12, 10:20. Return all Ayats of a Surah in sequence if the query specifies so. Result must contain unique Ayats of a Surah and do not repeat Ayat of the same Surah in a result. Must return accurate results and ensure moderation for the criticality of religious information. Query and result mapping shall start with Surah name, Ayat content, Ayat meaning and then Tafseer to get a complete context. Don't include Ayat content and other information in the response. Mention the ISO language code and Right-to-Left flag e.g. RTL or LTR of query used by the user e.g. Language: en:LTR."}, {'role': 'user', 'content': 'maauon'}]}
+2025-03-02 17:52:41,576 - root - INFO - Received response from AI: {'id': 'd775eccb086f4f8e9d538257fc23883f', 'object': 'chat.completion', 'created': 1740919961, 'model': 'mistral-small-latest', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'tool_calls': None, 'content': 'Language: en:LTR; 107:1, 107:2, 107:3, 107:4, 107:5, 107:6, 107:7.'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 229, 'total_tokens': 285, 'completion_tokens': 56}}
+2025-03-02 17:52:41,577 - root - INFO - Parsing AI response: Language: en:LTR; 107:1, 107:2, 107:3, 107:4, 107:5, 107:6, 107:7.
+2025-03-02 17:52:41,579 - root - INFO - Extracted language: en, RTL: False
+2025-03-02 17:52:41,580 - root - INFO - Extracted Surah:Ayat pair: 107:1
+2025-03-02 17:52:41,582 - root - INFO - Extracted Surah:Ayat pair: 107:2
+2025-03-02 17:52:41,582 - root - INFO - Extracted Surah:Ayat pair: 107:3
+2025-03-02 17:52:41,582 - root - INFO - Extracted Surah:Ayat pair: 107:4
+2025-03-02 17:52:41,582 - root - INFO - Extracted Surah:Ayat pair: 107:5
+2025-03-02 17:52:41,583 - root - INFO - Extracted Surah:Ayat pair: 107:6
+2025-03-02 17:52:41,583 - root - INFO - Extracted Surah:Ayat pair: 107:7
+2025-03-02 17:52:41,586 - root - INFO - All extracted Ayats: [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)]
+2025-03-02 17:52:41,587 - root - INFO - Received AI response: {'language': 'en', 'rtl': False, 'ayats': [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)]}
+2025-03-02 17:52:41,587 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:41,588 - root - INFO - Extracted language: en, RTL: False, Ayats: [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)]
+2025-03-02 17:52:41,588 - root - INFO - Fetching Ayats for pairs: [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)] in language: en
+2025-03-02 17:52:41,630 - root - INFO - Completed fetching and formatting Ayats: ["Surah Al-Maa'un (Almsgiving) - Meccan - سورة الماعون", 'Ayat 1: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ', 'Translation: Have you seen the one who denies the Recompense?', 'Ayat 2: فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ', 'Translation: For that is the one who drives away the orphan', 'Ayat 3: وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ', 'Translation: And does not encourage the feeding of the poor.', 'Ayat 4: فَوَيْلٌۭ لِّلْمُصَلِّينَ', 'Translation: So woe to those who pray', 'Ayat 5: ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ', 'Translation: [But] who are heedless of their prayer -', 'Ayat 6: ٱلَّذِينَ هُمْ يُرَآءُونَ', 'Translation: Those who make show [of their deeds]', 'Ayat 7: وَيَمْنَعُونَ ٱلْمَاعُونَ', 'Translation: And withhold [simple] assistance.']
+2025-03-02 17:52:41,631 - root - INFO - Formatted response from database: ["Surah Al-Maa'un (Almsgiving) - Meccan - سورة الماعون", 'Ayat 1: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ', 'Translation: Have you seen the one who denies the Recompense?', 'Ayat 2: فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ', 'Translation: For that is the one who drives away the orphan', 'Ayat 3: وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ', 'Translation: And does not encourage the feeding of the poor.', 'Ayat 4: فَوَيْلٌۭ لِّلْمُصَلِّينَ', 'Translation: So woe to those who pray', 'Ayat 5: ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ', 'Translation: [But] who are heedless of their prayer -', 'Ayat 6: ٱلَّذِينَ هُمْ يُرَآءُونَ', 'Translation: Those who make show [of their deeds]', 'Ayat 7: وَيَمْنَعُونَ ٱلْمَاعُونَ', 'Translation: And withhold [simple] assistance.']
+2025-03-02 17:52:41,632 - root - DEBUG - Grouping ayats by surah.
+2025-03-02 17:52:45,089 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:45,089 - root - INFO - Sending chunked message to #margalla: Ayat 1: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ
+2025-03-02 17:52:45,093 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:48,731 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:48,732 - root - INFO - Sending chunked message to #margalla: Translation: Have you seen the one who denies the Recompense?
+2025-03-02 17:52:48,733 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:52,597 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:52,598 - root - INFO - Sending chunked message to #margalla: Ayat 2: فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ
+2025-03-02 17:52:52,601 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:56,636 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:52:56,636 - root - INFO - Sending chunked message to #margalla: Translation: For that is the one who drives away the orphan
+2025-03-02 17:52:56,637 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:00,882 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:00,882 - root - INFO - Sending chunked message to #margalla: Ayat 3: وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ
+2025-03-02 17:53:00,886 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:05,350 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:05,351 - root - INFO - Sending chunked message to #margalla: Translation: And does not encourage the feeding of the poor.
+2025-03-02 17:53:05,353 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:10,026 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:10,026 - root - INFO - Sending chunked message to #margalla: Ayat 4: فَوَيْلٌۭ لِّلْمُصَلِّينَ
+2025-03-02 17:53:10,029 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:14,938 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:14,938 - root - INFO - Sending chunked message to #margalla: Translation: So woe to those who pray
+2025-03-02 17:53:14,940 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:20,010 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:20,010 - root - INFO - Sending chunked message to #margalla: Ayat 5: ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ
+2025-03-02 17:53:20,013 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:25,078 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:25,079 - root - INFO - Sending chunked message to #margalla: Translation: [But] who are heedless of their prayer -
+2025-03-02 17:53:25,082 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:30,148 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:30,149 - root - INFO - Sending chunked message to #margalla: Ayat 6: ٱلَّذِينَ هُمْ يُرَآءُونَ
+2025-03-02 17:53:30,151 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:35,195 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:35,196 - root - INFO - Sending chunked message to #margalla: Translation: Those who make show [of their deeds]
+2025-03-02 17:53:35,199 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:40,272 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:40,272 - root - INFO - Sending chunked message to #margalla: Ayat 7: وَيَمْنَعُونَ ٱلْمَاعُونَ
+2025-03-02 17:53:40,275 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:45,346 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:53:45,347 - root - INFO - Sending chunked message to #margalla: Translation: And withhold [simple] assistance.
+2025-03-02 17:53:45,349 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 17:54:00,580 - root - INFO - Cleaning up resources for Cheer.
+2025-03-02 17:54:00,580 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :Your query has been queued. You will receive a response shortly.
+2025-03-02 17:54:00,583 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :Your query has been queued. You will receive a response shortly.
+2025-03-02 17:54:00,584 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:54:00,584 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:54:00,584 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: Your query has been queued. You will receive a response shortly.
+2025-03-02 17:54:00,585 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=Your query has been queued. You will receive a response shortly.
+2025-03-02 17:54:00,611 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:54:00,611 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:54:00,611 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 17:54:00,612 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 17:54:00,612 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:54:00,613 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 17:54:10,332 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:54:10,332 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 17:54:10,336 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 17:54:10,336 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 17:54:10,337 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !counts
+2025-03-02 17:54:10,337 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!counts
+2025-03-02 17:54:10,406 - root - INFO - Handling counts command from IntelBug in IntelBug.
+2025-03-02 17:54:10,406 - root - DEBUG - Checking ownership: received nick='IntelBug', configured owner='IntelBug'
+2025-03-02 18:00:35,716 - root - INFO - IRC connection cancelled.
+2025-03-02 18:00:37,213 - root - INFO - Starting the bot application.
+2025-03-02 18:00:37,215 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-02 18:00:37,216 - root - INFO - Starting the bot...
+2025-03-02 18:00:38,028 - root - INFO - Successfully connected to IRC server.
+2025-03-02 18:00:43,038 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net NOTICE AUTH :*** Looking up your hostname...
+2025-03-02 18:00:43,038 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net NOTICE AUTH :*** Looking up your hostname...
+2025-03-02 18:00:43,040 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net NOTICE AUTH :*** Found your hostname
+2025-03-02 18:00:43,040 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net NOTICE AUTH :*** Found your hostname
+2025-03-02 18:00:43,041 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 001 Falah :Welcome to the DALnet IRC Network Falah!~Falah@39.40.48.44
+2025-03-02 18:00:43,041 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 001 Falah :Welcome to the DALnet IRC Network Falah!~Falah@39.40.48.44
+2025-03-02 18:00:43,042 - root - INFO - Successfully authenticated with nick: Falah
+2025-03-02 18:00:43,042 - root - INFO - Joining channel: #Margalla
+2025-03-02 18:00:44,557 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 002 Falah :Your host is bitcoin.uk.eu.dal.net, running version bahamut-2.2.4
+2025-03-02 18:00:44,558 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 002 Falah :Your host is bitcoin.uk.eu.dal.net, running version bahamut-2.2.4
+2025-03-02 18:00:44,562 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 003 Falah :This server was created Fri 22 Nov 2024 at 04:12:23 GMT
+2025-03-02 18:00:44,562 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 003 Falah :This server was created Fri 22 Nov 2024 at 04:12:23 GMT
+2025-03-02 18:00:44,563 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 004 Falah bitcoin.uk.eu.dal.net bahamut-2.2.4 aAbcCdefFghHiIjkKmnoOPrRsSwxXy AbceiIjklLmMnoOpPrRsStv beIjklov
+2025-03-02 18:00:44,564 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 004 Falah bitcoin.uk.eu.dal.net bahamut-2.2.4 aAbcCdefFghHiIjkKmnoOPrRsSwxXy AbceiIjklLmMnoOpPrRsStv beIjklov
+2025-03-02 18:00:44,564 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 005 Falah NETWORK=DALnet SAFELIST MAXBANS=200 MAXCHANNELS=50 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:50 PREFIX=(ohv)@%+ STATUSMSG=@%+ :are available on this server
+2025-03-02 18:00:44,565 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 005 Falah NETWORK=DALnet SAFELIST MAXBANS=200 MAXCHANNELS=50 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:50 PREFIX=(ohv)@%+ STATUSMSG=@%+ :are available on this server
+2025-03-02 18:00:44,565 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 005 Falah CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,ciPAmMnOprRsSt MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2025-03-02 18:00:44,566 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 005 Falah CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,ciPAmMnOprRsSt MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2025-03-02 18:00:44,567 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 251 Falah :There are 59 users and 6245 invisible on 39 servers
+2025-03-02 18:00:44,567 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 251 Falah :There are 59 users and 6245 invisible on 39 servers
+2025-03-02 18:00:44,568 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 252 Falah 72 :IRC Operators online
+2025-03-02 18:00:44,569 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 252 Falah 72 :IRC Operators online
+2025-03-02 18:00:44,569 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 254 Falah 3400 :channels formed
+2025-03-02 18:00:44,570 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 254 Falah 3400 :channels formed
+2025-03-02 18:00:44,570 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 255 Falah :I have 417 clients and 1 servers
+2025-03-02 18:00:44,571 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 255 Falah :I have 417 clients and 1 servers
+2025-03-02 18:00:44,571 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 265 Falah :Current local users: 417 Max: 4001
+2025-03-02 18:00:44,572 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 265 Falah :Current local users: 417 Max: 4001
+2025-03-02 18:00:44,573 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 266 Falah :Current global users: 6304 Max: 12809
+2025-03-02 18:00:44,578 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 266 Falah :Current global users: 6304 Max: 12809
+2025-03-02 18:00:44,578 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net NOTICE Falah :*** Notice -- motd was last changed at 9/11/2017 12:51
+2025-03-02 18:00:44,579 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net NOTICE Falah :*** Notice -- motd was last changed at 9/11/2017 12:51
+2025-03-02 18:00:44,579 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 375 Falah :- bitcoin.uk.eu.dal.net Message of the Day -
+2025-03-02 18:00:44,580 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 375 Falah :- bitcoin.uk.eu.dal.net Message of the Day -
+2025-03-02 18:00:44,580 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-9/11/2017 12:51
+2025-03-02 18:00:44,581 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-9/11/2017 12:51
+2025-03-02 18:00:44,581 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-                 [ bitcoin.uk.eu.dal.net    ]
+2025-03-02 18:00:44,582 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-                 [ bitcoin.uk.eu.dal.net    ]
+2025-03-02 18:00:44,582 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,583 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,583 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-                 [ Accessible via...        ]
+2025-03-02 18:00:44,584 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-                 [ Accessible via...        ]
+2025-03-02 18:00:44,584 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-                 [ ipv4: bitcoin.dal.net    ]
+2025-03-02 18:00:44,585 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-                 [ ipv4: bitcoin.dal.net    ]
+2025-03-02 18:00:44,585 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,586 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,586 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- Thank you to Private Internet Access (https://www.privateinternetaccess.com)
+2025-03-02 18:00:44,587 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- Thank you to Private Internet Access (https://www.privateinternetaccess.com)
+2025-03-02 18:00:44,587 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- for sponsoring this server.
+2025-03-02 18:00:44,588 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- for sponsoring this server.
+2025-03-02 18:00:44,588 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,589 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,593 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- Welcome to DALnet!  By connecting to this network, you agree to abide
+2025-03-02 18:00:44,594 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- Welcome to DALnet!  By connecting to this network, you agree to abide
+2025-03-02 18:00:44,594 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- by its acceptable use policy, available here: http://www.dal.net/aup
+2025-03-02 18:00:44,595 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- by its acceptable use policy, available here: http://www.dal.net/aup
+2025-03-02 18:00:44,595 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,595 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,596 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- Server Policies:
+2025-03-02 18:00:44,596 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- Server Policies:
+2025-03-02 18:00:44,597 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,597 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,597 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-    *   We reserve the right to deny access to this server without
+2025-03-02 18:00:44,598 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-    *   We reserve the right to deny access to this server without
+2025-03-02 18:00:44,598 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-        warning or explanation
+2025-03-02 18:00:44,599 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-        warning or explanation
+2025-03-02 18:00:44,599 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-    *   No malicious bots, including flood and nick/channel chasers
+2025-03-02 18:00:44,600 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-    *   No malicious bots, including flood and nick/channel chasers
+2025-03-02 18:00:44,600 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-    *   No channel filler bots/clients/psybncs
+2025-03-02 18:00:44,600 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-    *   No channel filler bots/clients/psybncs
+2025-03-02 18:00:44,601 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-          - A channel filler is a client, bnc, or bot which is
+2025-03-02 18:00:44,601 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-          - A channel filler is a client, bnc, or bot which is
+2025-03-02 18:00:44,602 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-            connected just to fill a channel and make it look
+2025-03-02 18:00:44,602 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-            connected just to fill a channel and make it look
+2025-03-02 18:00:44,603 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-            bigger
+2025-03-02 18:00:44,603 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-            bigger
+2025-03-02 18:00:44,603 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-    *   Operator impersonation, spamming, or any other abuse will
+2025-03-02 18:00:44,603 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-    *   Operator impersonation, spamming, or any other abuse will
+2025-03-02 18:00:44,609 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-        cause you to be banned from this server
+2025-03-02 18:00:44,609 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-        cause you to be banned from this server
+2025-03-02 18:00:44,610 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-    *   Abide by DALnet's AUP (www.dal.net/aup)
+2025-03-02 18:00:44,610 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-    *   Abide by DALnet's AUP (www.dal.net/aup)
+2025-03-02 18:00:44,610 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-    *   Please have fun and enjoy DALnet!
+2025-03-02 18:00:44,611 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-    *   Please have fun and enjoy DALnet!
+2025-03-02 18:00:44,611 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,612 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,612 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- Server Administrator: tyler
+2025-03-02 18:00:44,613 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- Server Administrator: tyler
+2025-03-02 18:00:44,613 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,614 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,614 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- Thank you to Private Internet Access (https://www.privateinternetaccess.com) for sponsori
+2025-03-02 18:00:44,614 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- Thank you to Private Internet Access (https://www.privateinternetaccess.com) for sponsori
+2025-03-02 18:00:44,615 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- ng this server.
+2025-03-02 18:00:44,615 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- ng this server.
+2025-03-02 18:00:44,616 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,616 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,617 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- For IRCop assistance, please /join #operhelp or message one of our
+2025-03-02 18:00:44,617 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- For IRCop assistance, please /join #operhelp or message one of our
+2025-03-02 18:00:44,618 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- friendly server staff listed above.
+2025-03-02 18:00:44,618 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- friendly server staff listed above.
+2025-03-02 18:00:44,618 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,619 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,619 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- For multilingual information:  <http://docs.dal.net/>
+2025-03-02 18:00:44,620 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- For multilingual information:  <http://docs.dal.net/>
+2025-03-02 18:00:44,625 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,625 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :-
+2025-03-02 18:00:44,625 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 372 Falah :- Thank you for using DALnet!  We hope you have a pleasant day.
+2025-03-02 18:00:44,626 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 372 Falah :- Thank you for using DALnet!  We hope you have a pleasant day.
+2025-03-02 18:00:44,626 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 376 Falah :End of /MOTD command.
+2025-03-02 18:00:44,627 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 376 Falah :End of /MOTD command.
+2025-03-02 18:00:44,627 - root - DEBUG - Received: :Falah MODE Falah :+iH
+2025-03-02 18:00:44,628 - root - DEBUG - Handling message: :Falah MODE Falah :+iH
+2025-03-02 18:00:44,628 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :This nick is owned by someone else. Please choose another.
+2025-03-02 18:00:44,628 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :This nick is owned by someone else. Please choose another.
+2025-03-02 18:00:44,629 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :If this is your nick, type: /msg NickServ@services.dal.net IDENTIFY <password>
+2025-03-02 18:00:44,629 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :If this is your nick, type: /msg NickServ@services.dal.net IDENTIFY <password>
+2025-03-02 18:00:44,630 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :Your nick will be changed in 60 seconds if you do not comply.
+2025-03-02 18:00:44,630 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :Your nick will be changed in 60 seconds if you do not comply.
+2025-03-02 18:00:44,631 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :Password accepted for Falah.
+2025-03-02 18:00:44,631 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :Password accepted for Falah.
+2025-03-02 18:00:44,632 - root - DEBUG - Received: :Falah MODE Falah :+r
+2025-03-02 18:00:44,632 - root - DEBUG - Handling message: :Falah MODE Falah :+r
+2025-03-02 18:00:44,632 - root - DEBUG - Received: :Falah!~Falah@4597-4d97-1523-557c-be10.40.39.ip JOIN :#Margalla
+2025-03-02 18:00:44,633 - root - DEBUG - Handling message: :Falah!~Falah@4597-4d97-1523-557c-be10.40.39.ip JOIN :#Margalla
+2025-03-02 18:00:44,633 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 332 Falah #Margalla :Welcome to #Margalla! Type '!Quran' and your query to learn and find answers from Quran!
+2025-03-02 18:00:44,634 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 332 Falah #Margalla :Welcome to #Margalla! Type '!Quran' and your query to learn and find answers from Quran!
+2025-03-02 18:00:44,634 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 333 Falah #Margalla IntelBug!~IntelBug@71a4-27a2-c57f-23b5-526.40.39.ip 1740215519
+2025-03-02 18:00:44,634 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 333 Falah #Margalla IntelBug!~IntelBug@71a4-27a2-c57f-23b5-526.40.39.ip 1740215519
+2025-03-02 18:00:44,639 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 353 Falah = #Margalla :Falah @IntelBug Al-Falah_ @Cheer
+2025-03-02 18:00:44,640 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 353 Falah = #Margalla :Falah @IntelBug Al-Falah_ @Cheer
+2025-03-02 18:00:44,640 - root - DEBUG - Received: :bitcoin.uk.eu.dal.net 366 Falah #Margalla :End of /NAMES list.
+2025-03-02 18:00:44,640 - root - DEBUG - Handling message: :bitcoin.uk.eu.dal.net 366 Falah #Margalla :End of /NAMES list.
+2025-03-02 18:00:44,641 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #Margalla :Salam and welcome back, Falah!
+2025-03-02 18:00:44,642 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #Margalla :Salam and welcome back, Falah!
+2025-03-02 18:00:44,642 - root - DEBUG - Parsed nick from prefix: Cheer
+2025-03-02 18:00:44,642 - root - DEBUG - Parsed sender_nick: Cheer
+2025-03-02 18:00:44,642 - root - DEBUG - Parsed PM/msg: Cheer -> #Margalla: Salam and welcome back, Falah!
+2025-03-02 18:00:44,643 - root - DEBUG - Processing message: nick=Cheer, channel=#Margalla, message=Salam and welcome back, Falah!
+2025-03-02 18:00:44,704 - root - INFO - Handling help command from Cheer in Cheer.
+2025-03-02 18:00:44,704 - root - INFO - Sending chunked message to Cheer: Assalam-o-Alaikum! I am here to provide very easy and authentic Qur'an Search. Just type !Quran <any Surah name, Ayat content, topic, keywords, or question> to find relevant Surah and Ayaat in 37 languages.
+2025-03-02 18:00:44,706 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 18:00:46,336 - root - INFO - Sending chunked message to Cheer: To mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. You can also use !stop to stop the result. Have your blessed time on IRC :)
+2025-03-02 18:00:46,336 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 18:00:48,056 - root - DEBUG - Received: :ChanServ!service@dal.net MODE #Margalla +o Falah
+2025-03-02 18:00:48,057 - root - DEBUG - Handling message: :ChanServ!service@dal.net MODE #Margalla +o Falah
+2025-03-02 18:00:48,060 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "Assalam-o-Alaikum!" is not a valid command.
+2025-03-02 18:00:48,060 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "Assalam-o-Alaikum!" is not a valid command.
+2025-03-02 18:00:48,061 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "To" is not a valid command.
+2025-03-02 18:00:48,061 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "To" is not a valid command.
+2025-03-02 18:00:55,151 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!Quran zakat urdu
+2025-03-02 18:00:55,152 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!Quran zakat urdu
+2025-03-02 18:00:55,155 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 18:00:55,155 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 18:00:55,156 - root - DEBUG - Parsed PM/msg: IntelBug -> #margalla: !Quran zakat urdu
+2025-03-02 18:00:55,156 - root - DEBUG - Processing message: nick=IntelBug, channel=#margalla, message=!Quran zakat urdu
+2025-03-02 18:00:55,220 - root - INFO - Handling !Quran command from IntelBug in #margalla with query: zakat urdu
+2025-03-02 18:00:55,220 - root - INFO - Processing query for IntelBug in #margalla with query: zakat urdu
+2025-03-02 18:00:56,960 - root - INFO - Sending structured query to AI: {'model': 'mistral-small-latest', 'messages': [{'role': 'system', 'content': "Return only Surah and Ayat number(s) of the Ayat(s) relevant to the query in the below format: Language: ISO code:Unicode Direction; Surah Number: Ayat Number, Surah Number: Ayat Number, Surah Number: Ayat Number. Example: Language: ur:RTL; 108:10, 8:12, 10:20. Return all Ayats of a Surah in sequence if the query specifies so. Result must contain unique Ayats of a Surah and do not repeat Ayat of the same Surah in a result. Must return accurate results and ensure moderation for the criticality of religious information. Query and result mapping shall start with Surah name, Ayat content, Ayat meaning and then Tafseer to get a complete context. Don't include Ayat content and other information in the response. Mention the ISO language code and Right-to-Left flag e.g. RTL or LTR of query used by the user e.g. Language: en:LTR."}, {'role': 'user', 'content': 'zakat urdu'}]}
+2025-03-02 18:00:58,817 - root - INFO - Received response from AI: {'id': 'f98bc07d50a04066912ac84bbcd69a53', 'object': 'chat.completion', 'created': 1740920457, 'model': 'mistral-small-latest', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'tool_calls': None, 'content': 'Language: ur:RTL; 2:261, 2:271, 2:277, 2:280, 2:282, 4:162, 5:12, 9:103, 16:114, 22:78, 24:37, 24:56, 30:39, 33:33, 41:7, 57:7, 57:18, 58:12, 59:7, 63:10, 73:20, 92:18, 92:20'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 230, 'total_tokens': 394, 'completion_tokens': 164}}
+2025-03-02 18:00:58,818 - root - INFO - Parsing AI response: Language: ur:RTL; 2:261, 2:271, 2:277, 2:280, 2:282, 4:162, 5:12, 9:103, 16:114, 22:78, 24:37, 24:56, 30:39, 33:33, 41:7, 57:7, 57:18, 58:12, 59:7, 63:10, 73:20, 92:18, 92:20
+2025-03-02 18:00:58,821 - root - INFO - Extracted language: ur, RTL: True
+2025-03-02 18:00:58,822 - root - INFO - Extracted Surah:Ayat pair: 2:261
+2025-03-02 18:00:58,822 - root - INFO - Extracted Surah:Ayat pair: 2:271
+2025-03-02 18:00:58,823 - root - INFO - Extracted Surah:Ayat pair: 2:277
+2025-03-02 18:00:58,823 - root - INFO - Extracted Surah:Ayat pair: 2:280
+2025-03-02 18:00:58,824 - root - INFO - Extracted Surah:Ayat pair: 2:282
+2025-03-02 18:00:58,824 - root - INFO - Extracted Surah:Ayat pair: 4:162
+2025-03-02 18:00:58,824 - root - INFO - Extracted Surah:Ayat pair: 5:12
+2025-03-02 18:00:58,824 - root - INFO - Extracted Surah:Ayat pair: 9:103
+2025-03-02 18:00:58,825 - root - INFO - Extracted Surah:Ayat pair: 16:114
+2025-03-02 18:00:58,825 - root - INFO - Extracted Surah:Ayat pair: 22:78
+2025-03-02 18:00:58,825 - root - INFO - Extracted Surah:Ayat pair: 24:37
+2025-03-02 18:00:58,826 - root - INFO - Extracted Surah:Ayat pair: 24:56
+2025-03-02 18:00:58,826 - root - INFO - Extracted Surah:Ayat pair: 30:39
+2025-03-02 18:00:58,827 - root - INFO - Extracted Surah:Ayat pair: 33:33
+2025-03-02 18:00:58,827 - root - INFO - Extracted Surah:Ayat pair: 41:7
+2025-03-02 18:00:58,827 - root - INFO - Extracted Surah:Ayat pair: 57:7
+2025-03-02 18:00:58,828 - root - INFO - Extracted Surah:Ayat pair: 57:18
+2025-03-02 18:00:58,828 - root - INFO - Extracted Surah:Ayat pair: 58:12
+2025-03-02 18:00:58,828 - root - INFO - Extracted Surah:Ayat pair: 59:7
+2025-03-02 18:00:58,828 - root - INFO - Extracted Surah:Ayat pair: 63:10
+2025-03-02 18:00:58,829 - root - INFO - Extracted Surah:Ayat pair: 73:20
+2025-03-02 18:00:58,829 - root - INFO - Extracted Surah:Ayat pair: 92:18
+2025-03-02 18:00:58,829 - root - INFO - Extracted Surah:Ayat pair: 92:20
+2025-03-02 18:00:58,831 - root - INFO - All extracted Ayats: [(2, 261), (2, 271), (2, 277), (2, 280), (2, 282), (4, 162), (5, 12), (9, 103), (16, 114), (22, 78), (24, 37), (24, 56), (30, 39), (33, 33), (41, 7), (57, 7), (57, 18), (58, 12), (59, 7), (63, 10), (73, 20), (92, 18), (92, 20)]
+2025-03-02 18:00:58,832 - root - INFO - Received AI response: {'language': 'ur', 'rtl': True, 'ayats': [(2, 261), (2, 271), (2, 277), (2, 280), (2, 282), (4, 162), (5, 12), (9, 103), (16, 114), (22, 78), (24, 37), (24, 56), (30, 39), (33, 33), (41, 7), (57, 7), (57, 18), (58, 12), (59, 7), (63, 10), (73, 20), (92, 18), (92, 20)]}
+2025-03-02 18:00:58,832 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:00:58,833 - root - INFO - Extracted language: ur, RTL: True, Ayats: [(2, 261), (2, 271), (2, 277), (2, 280), (2, 282), (4, 162), (5, 12), (9, 103), (16, 114), (22, 78), (24, 37), (24, 56), (30, 39), (33, 33), (41, 7), (57, 7), (57, 18), (58, 12), (59, 7), (63, 10), (73, 20), (92, 18), (92, 20)]
+2025-03-02 18:00:58,833 - root - INFO - Fetching Ayats for pairs: [(2, 261), (2, 271), (2, 277), (2, 280), (2, 282), (4, 162), (5, 12), (9, 103), (16, 114), (22, 78), (24, 37), (24, 56), (30, 39), (33, 33), (41, 7), (57, 7), (57, 18), (58, 12), (59, 7), (63, 10), (73, 20), (92, 18), (92, 20)] in language: ur
+2025-03-02 18:00:58,980 - root - INFO - Completed fetching and formatting Ayats: ['Surah Al-Baqara (The Cow) - Medinan - سورة البقرة', 'Ayat 261: \u202bمَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ\u202c', 'Translation: \u202aجو لوگ اپنا مال خدا کی راہ میں خرچ کرتے ہیں ان (کے مال) کی مثال اس دانے کی سی ہے جس سے سات بالیں اگیں اور ہر ایک بال میں سو سو دانے ہوں اور خدا جس (کے مال) کو چاہتا ہے زیادہ کرتا ہے۔ وہ بڑی کشائش والا اور سب کچھ جاننے والا ہے\u202c', 'Ayat 271: \u202bإِن تُبْدُوا۟ ٱلصَّدَقَٰتِ فَنِعِمَّا هِىَ ۖ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌۭ لَّكُمْ ۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ\u202c', 'Translation: \u202aاگر تم خیرات ظاہر دو تو وہ بھی خوب ہے اور اگر پوشیدہ دو اور دو بھی اہل حاجت کو تو وہ خوب تر ہے اور (اس طرح کا دینا) تمہارے گناہوں کو بھی دور کردے گا۔ اور خدا کو تمہارے سب کاموں کی خبر ہے\u202c', 'Ayat 277: \u202bإِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ\u202c', 'Translation: \u202aجو لوگ ایمان لائے اور نیک عمل کرتے اور نماز پڑھتے اور زکوٰة دیتے رہے ان کو ان کے کاموں کا صلہ خدا کے ہاں ملے گا اور (قیامت کے دن) ان کو نہ کچھ خوف ہوا اور نہ وہ غمناک ہوں گے\u202c', 'Ayat 280: \u202bوَإِن كَانَ ذُو عُسْرَةٍۢ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍۢ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌۭ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ\u202c', 'Translation: \u202aاور اگر قرض لینے والا تنگ دست ہو تو (اسے) کشائش (کے حاصل ہونے) تک مہلت (دو) اور اگر (زر قرض) بخش ہی دو توتمہارے لئے زیادہ اچھا ہے بشرطیکہ سمجھو\u202c', 'Ayat 282: \u202bيَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ\u202c', 'Translation: \u202aمومنو! جب تم آپس میں کسی میعاد معین کے لئے قرض کا معاملہ کرنے لگو تو اس کو لکھ لیا کرو اور لکھنے والا تم میں (کسی کا نقصان نہ کرے بلکہ) انصاف سے لکھے نیز لکھنے والا جیسا اسے خدا نے سکھایا ہے لکھنے سے انکار بھی نہ کرے اور دستاویز لکھ دے۔ اور جو شخص قرض لے وہی (دستاویز کا) مضمون بول کر لکھوائے اور خدا سے کہ اس کا مالک ہے خوف کرے اور زر قرض میں سے کچھ کم نہ لکھوائے۔ اور اگر قرض لینے والا بےعقل یا ضعیف ہو یا مضمون لکھوانے کی قابلیت نہ رکھتا ہو تو جو اس کا ولی ہو وہ انصاف کے ساتھ مضمون لکھوائے۔ اور اپنے میں سے دو مردوں کو (ایسے معاملے کے) گواہ کرلیا کرو۔ اور اگر دو مرد نہ ہوں تو ایک مرد اور دو عورتیں جن کو تم گواہ پسند کرو (کافی ہیں) کہ اگر ان میں سے ایک بھول جائے گی تو دوسری اسے یاد دلادے گی۔ اور جب گواہ (گواہی کے لئے طلب کئے جائیں تو انکار نہ کریں۔ اور قرض تھوڑا ہو یا بہت اس (کی دستاویز) کے لکھنے میں کاہلی نہ کرنا۔ یہ بات خدا کے نزدیک نہایت قرین انصاف ہے اور شہادت کے لئے بھی یہ بہت درست طریقہ ہے۔ اس سے تمہیں کسی طرح کا شک وہ شبہ بھی نہیں پڑے گا۔ ہاں اگر سودا دست بدست ہو جو تم آپس میں لیتے دیتے ہو تو اگر (ایسے معاملے کی) دستاویز نہ لکھوتو تم پر کچھ گناہ نہیں۔ اور جب خرید وفروخت کیا کرو تو بھی گواہ کرلیا کرو۔ اور کاتب دستاویز اور گواہ (معاملہ کرنے والوں کا) کسی طرح نقصان نہ کریں۔ اگر تم (لوگ) ایسا کرو تو یہ تمہارے لئے گناہ کی بات ہے۔ اور خدا سے ڈرو اور (دیکھو کہ) وہ تم کو (کیسی مفید باتیں) سکھاتا ہے اور خدا ہر چیز سے واقف ہے\u202c', 'Surah An-Nisaa (The Women) - Medinan - سورة النساء', 'Ayat 162: \u202bلَّٰكِنِ ٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ مِنْهُمْ وَٱلْمُؤْمِنُونَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ ۚ وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ أُو۟لَٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا\u202c', 'Translation: \u202aمگر جو لوگ ان میں سے علم میں پکے ہیں اور جو مومن ہیں وہ اس (کتاب) پر جو تم پر نازل ہوئی اور جو (کتابیں) تم سے پہلے نازل ہوئیں (سب پر) ایمان رکھتے ہیں اور نماز پڑھتے ہیں اور زکوٰة دیتے ہیں اور خدا اور روز آخرت کو مانتے ہیں۔ ان کو ہم عنقریب اجر عظیم دیں گے\u202c', 'Surah Al-Maaida (The Table) - Medinan - سورة المائدة', 'Ayat 12: \u202b۞ وَلَقَدْ أَخَذَ ٱللَّهُ مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ وَبَعَثْنَا مِنْهُمُ ٱثْنَىْ عَشَرَ نَقِيبًۭا ۖ وَقَالَ ٱللَّهُ إِنِّى مَعَكُمْ ۖ لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ وَءَامَنتُم بِرُسُلِى وَعَزَّرْتُمُوهُمْ وَأَقْرَضْتُمُ ٱللَّهَ قَرْضًا حَسَنًۭا لَّأُكَفِّرَنَّ عَنكُمْ سَيِّـَٔاتِكُمْ وَلَأُدْخِلَنَّكُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۚ فَمَن كَفَرَ بَعْدَ ذَٰلِكَ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ\u202c', 'Translation: \u202aاور خدا نے بنی اسرائیل سے اقرار لیا اور ان میں ہم نے بارہ سردار مقرر کئے پھر خدا نے فرمایا کہ میں تمہارے ساتھ ہوں اگر تم نماز پڑھتے اور زکوٰة دیتے رہو گے اور میرے پیغمبروں پر ایمان لاؤ گے اور ان کی مدد کرو گے اور خدا کو قرض حسنہ دو گے تو میں تم سے تمہارے گناہ دور کر دوں گا اور تم کو بہشتوں میں داخل کروں گا جن کے نیچے نہریں بہہ رہی ہیں پھر جس نے اس کے بعد تم میں سے کفر کیا وہ سیدھے رستے سے بھٹک گیا\u202c', 'Surah At-Tawba (The Repentance) - Medinan - سورة التوبة', 'Ayat 103: \u202bخُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ\u202c', 'Translation: \u202aان کے مال میں سے زکوٰة قبول کر لو کہ اس سے تم ان کو (ظاہر میں بھی) پاک اور (باطن میں بھی) پاکیزہ کرتے ہو اور ان کے حق میں دعائے خیر کرو کہ تمہاری دعا ان کے لیے موجب تسکین ہے اور خدا سننے والا اور جاننے والا ہے\u202c', 'Surah An-Nahl (The Bee) - Meccan - سورة النحل', 'Ayat 114: \u202bفَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ\u202c', 'Translation: \u202aپس خدا نے جو تم کو حلال طیّب رزق دیا ہے اسے کھاؤ۔ اور الله کی نعمتوں کا شکر کرو۔ اگر اسی کی عبادت کرتے ہو\u202c', 'Surah Al-Hajj (The Pilgrimage) - Medinan - سورة الحج', 'Ayat 78: \u202bوَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ\u202c', 'Translation: \u202aاور خدا (کی راہ) میں جہاد کرو جیسا جہاد کرنے کا حق ہے۔ اس نے تم کو برگزیدہ کیا ہے اور تم پر دین کی (کسی بات) میں تنگی نہیں کی۔ (اور تمہارے لئے) تمہارے باپ ابراہیم کا دین (پسند کیا) اُسی نے پہلے (یعنی پہلی کتابوں میں) تمہارا نام مسلمان رکھا تھا اور اس کتاب میں بھی (وہی نام رکھا ہے تو جہاد کرو) تاکہ پیغمبر تمہارے بارے میں شاہد ہوں۔ اور تم لوگوں کے مقابلے میں شاہد اور نماز پڑھو اور زکوٰة دو اور خدا کے دین کی (رسی کو) پکڑے رہو۔ وہی تمہارا دوست ہے۔ اور خوب دوست اور خوب مددگار ہے\u202c', 'Surah An-Noor (The Light) - Medinan - سورة النور', 'Ayat 37: \u202bرِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًۭا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَٰرُ\u202c', 'Translation: \u202a(یعنی ایسے) لوگ جن کو خدا کے ذکر اور نماز پڑھنے اور زکوٰة دینے سے نہ سوداگری غافل کرتی ہے نہ خرید وفروخت۔ وہ اس دن سے جب دل (خوف اور گھبراہٹ کے سبب) الٹ جائیں گے اور آنکھیں (اوپر کو چڑھ جائیں گی) ڈرتے ہیں\u202c', 'Ayat 56: \u202bوَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ\u202c', 'Translation: \u202aاور نماز پڑھتے رہو اور زکوٰة دیتے رہو اور پیغمبر خدا کے فرمان پر چلتے رہو تاکہ تم پر رحمت کی جائے\u202c', 'Surah Ar-Room (The Romans) - Meccan - سورة الروم', 'Ayat 39: \u202bوَمَآ ءَاتَيْتُم مِّن رِّبًۭا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ وَمَآ ءَاتَيْتُم مِّن زَكَوٰةٍۢ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ\u202c', 'Translation: \u202aاور جو تم سود دیتے ہو کہ لوگوں کے مال میں افزائش ہو تو خدا کے نزدیک اس میں افزائش نہیں ہوتی اور جو تم زکوٰة دیتے ہو اور اُس سے خدا کی رضا مندی طلب کرتے ہو تو (وہ موجبِ برکت ہے اور) ایسے ہی لوگ (اپنے مال کو) دو چند سہ چند کرنے والے ہیں\u202c', 'Surah Al-Ahzaab (The Clans) - Medinan - سورة الأحزاب', 'Ayat 33: \u202bوَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًۭا\u202c', 'Translation: \u202aاور اپنے گھروں میں ٹھہری رہو اور جس طرح (پہلے) جاہلیت (کے دنوں) میں اظہار تجمل کرتی تھیں اس طرح زینت نہ دکھاؤ۔ اور نماز پڑھتی رہو اور زکوٰة دیتی رہو اور خدا اور اس کے رسول کی فرمانبرداری کرتی رہو۔ اے (پیغمبر کے) اہل بیت خدا چاہتا ہے کہ تم سے ناپاکی (کا میل کچیل) دور کردے اور تمہیں بالکل پاک صاف کردے\u202c', 'Surah Fussilat (Explained in detail) - Meccan - سورة فصلت', 'Ayat 7: \u202bٱلَّذِينَ لَا يُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ\u202c', 'Translation: \u202aجو زکوٰة نہیں دیتے اور آخرت کے بھی قائل نہیں\u202c', 'Surah Al-Hadid (The Iron) - Medinan - سورة الحديد', 'Ayat 7: \u202bءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌۭ كَبِيرٌۭ\u202c', 'Translation: \u202aتو) خدا پر اور اس کے رسول پر ایمان لاؤ اور جس (مال) میں اس نے تم کو (اپنا) نائب بنایا ہے اس میں سے خرچ کرو۔ جو لوگ تم میں سے ایمان لائے اور (مال) خرچ کرتے رہے ان کے لئے بڑا ثواب ہے\u202c', 'Ayat 18: \u202bإِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا يُضَٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌۭ كَرِيمٌۭ\u202c', 'Translation: \u202aجو لوگ خیرات کرنے والے ہیں مرد بھی اور عورتیں بھی۔ اور خدا کو (نیت) نیک (اور خلوص سے) قرض دیتے ہیں ان کو دوچند ادا کیا جائے گا اور ان کے لئے عزت کا صلہ ہے\u202c', 'Surah Al-Mujaadila (The Pleading Woman) - Medinan - سورة المجادلة', 'Ayat 12: \u202bيَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةًۭ ۚ ذَٰلِكَ خَيْرٌۭ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ\u202c', 'Translation: \u202aمومنو! جب تم پیغمبر کے کان میں کوئی بات کہو تو بات کہنے سے پہلے (مساکین کو) کچھ خیرات دے دیا کرو۔ یہ تمہارے لئے بہت بہتر اور پاکیزگی کی بات ہے۔ اور اگر خیرات تم کو میسر نہ آئے تو خدا بخشنے والا مہربان ہے\u202c', 'Surah Al-Hashr (The Exile) - Medinan - سورة الحشر', 'Ayat 7: \u202bمَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ\u202c', 'Translation: \u202aجو مال خدا نے اپنے پیغمبر کو دیہات والوں سے دلوایا ہے وہ خدا کے اور پیغمبر کے اور (پیغمبر کے) قرابت والوں کے اور یتیموں کے اور حاجتمندوں کے اور مسافروں کے لئے ہے۔ تاکہ جو لوگ تم میں دولت مند ہیں ان ہی کے ہاتھوں میں نہ پھرتا رہے۔ سو جو چیز تم کو پیغمبر دیں وہ لے لو۔ اور جس سے منع کریں (اس سے) باز رہو۔ اور خدا سے ڈرتے رہو۔ بےشک خدا سخت عذاب دینے والا ہے\u202c', 'Surah Al-Munaafiqoon (The Hypocrites) - Medinan - سورة المنافقون', 'Ayat 10: \u202bوَأَنفِقُوا۟ مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ\u202c', 'Translation: \u202aاور جو (مال) ہم نے تم کو دیا ہے اس میں سے اس (وقت) سے پیشتر خرچ کرلو کہ تم میں سے کسی کی موت آجائے تو (اس وقت) کہنے لگے کہ اے میرے پروردگار تو نے مجھے تھوڑی سی اور مہلت کیوں نہ دی تاکہ میں خیرات کرلیتا اور نیک لوگوں میں داخل ہوجاتا\u202c', 'Surah Al-Muzzammil (The Enshrouded One) - Meccan - سورة المزمل', 'Ayat 20: \u202b۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌۭ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًۭا وَأَعْظَمَ أَجْرًۭا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۢ\u202c', 'Translation: \u202aتمہارا پروردگار خوب جانتا ہے کہ تم اور تمہارے ساتھ کے لوگ (کبھی) دو تہائی رات کے قریب اور (کبھی) آدھی رات اور (کبھی) تہائی رات قیام کیا کرتے ہو۔ اور خدا تو رات اور دن کا اندازہ رکھتا ہے۔ اس نے معلوم کیا کہ تم اس کو نباہ نہ سکو گے تو اس نے تم پر مہربانی کی۔ پس جتنا آسانی سے ہوسکے (اتنا) قرآن پڑھ لیا کرو۔ اس نے جانا کہ تم میں بعض بیمار بھی ہوتے ہیں اور بعض خدا کے فضل (یعنی معاش) کی تلاش میں ملک میں سفر کرتے ہیں اور بعض خدا کی راہ میں لڑتے ہیں۔ تو جتنا آسانی سے ہوسکے اتنا پڑھ لیا کرو۔ اور نماز پڑھتے رہو اور زکوٰة ادا کرتے رہو اور خدا کو نیک (اور خلوص نیت سے) قرض دیتے رہو۔ اور جو عمل نیک تم اپنے لئے آگے بھیجو گے اس کو خدا کے ہاں بہتر اور صلے میں بزرگ تر پاؤ گے۔ اور خدا سے بخشش مانگتے رہو۔ بےشک خدا بخشنے والا مہربان ہے\u202c', 'Surah Al-Lail (The Night) - Meccan - سورة الليل', 'Ayat 18: \u202bٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ\u202c', 'Translation: \u202aجو مال دیتا ہے تاکہ پاک ہو\u202c', 'Ayat 20: \u202bإِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ\u202c', 'Translation: \u202aبلکہ اپنے خداوند اعلیٰ کی رضامندی حاصل کرنے کے لیے دیتا ہے\u202c']
+2025-03-02 18:00:58,984 - root - INFO - Formatted response from database: ['Surah Al-Baqara (The Cow) - Medinan - سورة البقرة', 'Ayat 261: \u202bمَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ\u202c', 'Translation: \u202aجو لوگ اپنا مال خدا کی راہ میں خرچ کرتے ہیں ان (کے مال) کی مثال اس دانے کی سی ہے جس سے سات بالیں اگیں اور ہر ایک بال میں سو سو دانے ہوں اور خدا جس (کے مال) کو چاہتا ہے زیادہ کرتا ہے۔ وہ بڑی کشائش والا اور سب کچھ جاننے والا ہے\u202c', 'Ayat 271: \u202bإِن تُبْدُوا۟ ٱلصَّدَقَٰتِ فَنِعِمَّا هِىَ ۖ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌۭ لَّكُمْ ۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ\u202c', 'Translation: \u202aاگر تم خیرات ظاہر دو تو وہ بھی خوب ہے اور اگر پوشیدہ دو اور دو بھی اہل حاجت کو تو وہ خوب تر ہے اور (اس طرح کا دینا) تمہارے گناہوں کو بھی دور کردے گا۔ اور خدا کو تمہارے سب کاموں کی خبر ہے\u202c', 'Ayat 277: \u202bإِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ\u202c', 'Translation: \u202aجو لوگ ایمان لائے اور نیک عمل کرتے اور نماز پڑھتے اور زکوٰة دیتے رہے ان کو ان کے کاموں کا صلہ خدا کے ہاں ملے گا اور (قیامت کے دن) ان کو نہ کچھ خوف ہوا اور نہ وہ غمناک ہوں گے\u202c', 'Ayat 280: \u202bوَإِن كَانَ ذُو عُسْرَةٍۢ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍۢ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌۭ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ\u202c', 'Translation: \u202aاور اگر قرض لینے والا تنگ دست ہو تو (اسے) کشائش (کے حاصل ہونے) تک مہلت (دو) اور اگر (زر قرض) بخش ہی دو توتمہارے لئے زیادہ اچھا ہے بشرطیکہ سمجھو\u202c', 'Ayat 282: \u202bيَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ\u202c', 'Translation: \u202aمومنو! جب تم آپس میں کسی میعاد معین کے لئے قرض کا معاملہ کرنے لگو تو اس کو لکھ لیا کرو اور لکھنے والا تم میں (کسی کا نقصان نہ کرے بلکہ) انصاف سے لکھے نیز لکھنے والا جیسا اسے خدا نے سکھایا ہے لکھنے سے انکار بھی نہ کرے اور دستاویز لکھ دے۔ اور جو شخص قرض لے وہی (دستاویز کا) مضمون بول کر لکھوائے اور خدا سے کہ اس کا مالک ہے خوف کرے اور زر قرض میں سے کچھ کم نہ لکھوائے۔ اور اگر قرض لینے والا بےعقل یا ضعیف ہو یا مضمون لکھوانے کی قابلیت نہ رکھتا ہو تو جو اس کا ولی ہو وہ انصاف کے ساتھ مضمون لکھوائے۔ اور اپنے میں سے دو مردوں کو (ایسے معاملے کے) گواہ کرلیا کرو۔ اور اگر دو مرد نہ ہوں تو ایک مرد اور دو عورتیں جن کو تم گواہ پسند کرو (کافی ہیں) کہ اگر ان میں سے ایک بھول جائے گی تو دوسری اسے یاد دلادے گی۔ اور جب گواہ (گواہی کے لئے طلب کئے جائیں تو انکار نہ کریں۔ اور قرض تھوڑا ہو یا بہت اس (کی دستاویز) کے لکھنے میں کاہلی نہ کرنا۔ یہ بات خدا کے نزدیک نہایت قرین انصاف ہے اور شہادت کے لئے بھی یہ بہت درست طریقہ ہے۔ اس سے تمہیں کسی طرح کا شک وہ شبہ بھی نہیں پڑے گا۔ ہاں اگر سودا دست بدست ہو جو تم آپس میں لیتے دیتے ہو تو اگر (ایسے معاملے کی) دستاویز نہ لکھوتو تم پر کچھ گناہ نہیں۔ اور جب خرید وفروخت کیا کرو تو بھی گواہ کرلیا کرو۔ اور کاتب دستاویز اور گواہ (معاملہ کرنے والوں کا) کسی طرح نقصان نہ کریں۔ اگر تم (لوگ) ایسا کرو تو یہ تمہارے لئے گناہ کی بات ہے۔ اور خدا سے ڈرو اور (دیکھو کہ) وہ تم کو (کیسی مفید باتیں) سکھاتا ہے اور خدا ہر چیز سے واقف ہے\u202c', 'Surah An-Nisaa (The Women) - Medinan - سورة النساء', 'Ayat 162: \u202bلَّٰكِنِ ٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ مِنْهُمْ وَٱلْمُؤْمِنُونَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ ۚ وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ أُو۟لَٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا\u202c', 'Translation: \u202aمگر جو لوگ ان میں سے علم میں پکے ہیں اور جو مومن ہیں وہ اس (کتاب) پر جو تم پر نازل ہوئی اور جو (کتابیں) تم سے پہلے نازل ہوئیں (سب پر) ایمان رکھتے ہیں اور نماز پڑھتے ہیں اور زکوٰة دیتے ہیں اور خدا اور روز آخرت کو مانتے ہیں۔ ان کو ہم عنقریب اجر عظیم دیں گے\u202c', 'Surah Al-Maaida (The Table) - Medinan - سورة المائدة', 'Ayat 12: \u202b۞ وَلَقَدْ أَخَذَ ٱللَّهُ مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ وَبَعَثْنَا مِنْهُمُ ٱثْنَىْ عَشَرَ نَقِيبًۭا ۖ وَقَالَ ٱللَّهُ إِنِّى مَعَكُمْ ۖ لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ وَءَامَنتُم بِرُسُلِى وَعَزَّرْتُمُوهُمْ وَأَقْرَضْتُمُ ٱللَّهَ قَرْضًا حَسَنًۭا لَّأُكَفِّرَنَّ عَنكُمْ سَيِّـَٔاتِكُمْ وَلَأُدْخِلَنَّكُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۚ فَمَن كَفَرَ بَعْدَ ذَٰلِكَ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ\u202c', 'Translation: \u202aاور خدا نے بنی اسرائیل سے اقرار لیا اور ان میں ہم نے بارہ سردار مقرر کئے پھر خدا نے فرمایا کہ میں تمہارے ساتھ ہوں اگر تم نماز پڑھتے اور زکوٰة دیتے رہو گے اور میرے پیغمبروں پر ایمان لاؤ گے اور ان کی مدد کرو گے اور خدا کو قرض حسنہ دو گے تو میں تم سے تمہارے گناہ دور کر دوں گا اور تم کو بہشتوں میں داخل کروں گا جن کے نیچے نہریں بہہ رہی ہیں پھر جس نے اس کے بعد تم میں سے کفر کیا وہ سیدھے رستے سے بھٹک گیا\u202c', 'Surah At-Tawba (The Repentance) - Medinan - سورة التوبة', 'Ayat 103: \u202bخُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ\u202c', 'Translation: \u202aان کے مال میں سے زکوٰة قبول کر لو کہ اس سے تم ان کو (ظاہر میں بھی) پاک اور (باطن میں بھی) پاکیزہ کرتے ہو اور ان کے حق میں دعائے خیر کرو کہ تمہاری دعا ان کے لیے موجب تسکین ہے اور خدا سننے والا اور جاننے والا ہے\u202c', 'Surah An-Nahl (The Bee) - Meccan - سورة النحل', 'Ayat 114: \u202bفَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ\u202c', 'Translation: \u202aپس خدا نے جو تم کو حلال طیّب رزق دیا ہے اسے کھاؤ۔ اور الله کی نعمتوں کا شکر کرو۔ اگر اسی کی عبادت کرتے ہو\u202c', 'Surah Al-Hajj (The Pilgrimage) - Medinan - سورة الحج', 'Ayat 78: \u202bوَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ\u202c', 'Translation: \u202aاور خدا (کی راہ) میں جہاد کرو جیسا جہاد کرنے کا حق ہے۔ اس نے تم کو برگزیدہ کیا ہے اور تم پر دین کی (کسی بات) میں تنگی نہیں کی۔ (اور تمہارے لئے) تمہارے باپ ابراہیم کا دین (پسند کیا) اُسی نے پہلے (یعنی پہلی کتابوں میں) تمہارا نام مسلمان رکھا تھا اور اس کتاب میں بھی (وہی نام رکھا ہے تو جہاد کرو) تاکہ پیغمبر تمہارے بارے میں شاہد ہوں۔ اور تم لوگوں کے مقابلے میں شاہد اور نماز پڑھو اور زکوٰة دو اور خدا کے دین کی (رسی کو) پکڑے رہو۔ وہی تمہارا دوست ہے۔ اور خوب دوست اور خوب مددگار ہے\u202c', 'Surah An-Noor (The Light) - Medinan - سورة النور', 'Ayat 37: \u202bرِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًۭا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَٰرُ\u202c', 'Translation: \u202a(یعنی ایسے) لوگ جن کو خدا کے ذکر اور نماز پڑھنے اور زکوٰة دینے سے نہ سوداگری غافل کرتی ہے نہ خرید وفروخت۔ وہ اس دن سے جب دل (خوف اور گھبراہٹ کے سبب) الٹ جائیں گے اور آنکھیں (اوپر کو چڑھ جائیں گی) ڈرتے ہیں\u202c', 'Ayat 56: \u202bوَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ\u202c', 'Translation: \u202aاور نماز پڑھتے رہو اور زکوٰة دیتے رہو اور پیغمبر خدا کے فرمان پر چلتے رہو تاکہ تم پر رحمت کی جائے\u202c', 'Surah Ar-Room (The Romans) - Meccan - سورة الروم', 'Ayat 39: \u202bوَمَآ ءَاتَيْتُم مِّن رِّبًۭا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ وَمَآ ءَاتَيْتُم مِّن زَكَوٰةٍۢ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ\u202c', 'Translation: \u202aاور جو تم سود دیتے ہو کہ لوگوں کے مال میں افزائش ہو تو خدا کے نزدیک اس میں افزائش نہیں ہوتی اور جو تم زکوٰة دیتے ہو اور اُس سے خدا کی رضا مندی طلب کرتے ہو تو (وہ موجبِ برکت ہے اور) ایسے ہی لوگ (اپنے مال کو) دو چند سہ چند کرنے والے ہیں\u202c', 'Surah Al-Ahzaab (The Clans) - Medinan - سورة الأحزاب', 'Ayat 33: \u202bوَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًۭا\u202c', 'Translation: \u202aاور اپنے گھروں میں ٹھہری رہو اور جس طرح (پہلے) جاہلیت (کے دنوں) میں اظہار تجمل کرتی تھیں اس طرح زینت نہ دکھاؤ۔ اور نماز پڑھتی رہو اور زکوٰة دیتی رہو اور خدا اور اس کے رسول کی فرمانبرداری کرتی رہو۔ اے (پیغمبر کے) اہل بیت خدا چاہتا ہے کہ تم سے ناپاکی (کا میل کچیل) دور کردے اور تمہیں بالکل پاک صاف کردے\u202c', 'Surah Fussilat (Explained in detail) - Meccan - سورة فصلت', 'Ayat 7: \u202bٱلَّذِينَ لَا يُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ\u202c', 'Translation: \u202aجو زکوٰة نہیں دیتے اور آخرت کے بھی قائل نہیں\u202c', 'Surah Al-Hadid (The Iron) - Medinan - سورة الحديد', 'Ayat 7: \u202bءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌۭ كَبِيرٌۭ\u202c', 'Translation: \u202aتو) خدا پر اور اس کے رسول پر ایمان لاؤ اور جس (مال) میں اس نے تم کو (اپنا) نائب بنایا ہے اس میں سے خرچ کرو۔ جو لوگ تم میں سے ایمان لائے اور (مال) خرچ کرتے رہے ان کے لئے بڑا ثواب ہے\u202c', 'Ayat 18: \u202bإِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا يُضَٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌۭ كَرِيمٌۭ\u202c', 'Translation: \u202aجو لوگ خیرات کرنے والے ہیں مرد بھی اور عورتیں بھی۔ اور خدا کو (نیت) نیک (اور خلوص سے) قرض دیتے ہیں ان کو دوچند ادا کیا جائے گا اور ان کے لئے عزت کا صلہ ہے\u202c', 'Surah Al-Mujaadila (The Pleading Woman) - Medinan - سورة المجادلة', 'Ayat 12: \u202bيَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةًۭ ۚ ذَٰلِكَ خَيْرٌۭ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ\u202c', 'Translation: \u202aمومنو! جب تم پیغمبر کے کان میں کوئی بات کہو تو بات کہنے سے پہلے (مساکین کو) کچھ خیرات دے دیا کرو۔ یہ تمہارے لئے بہت بہتر اور پاکیزگی کی بات ہے۔ اور اگر خیرات تم کو میسر نہ آئے تو خدا بخشنے والا مہربان ہے\u202c', 'Surah Al-Hashr (The Exile) - Medinan - سورة الحشر', 'Ayat 7: \u202bمَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ\u202c', 'Translation: \u202aجو مال خدا نے اپنے پیغمبر کو دیہات والوں سے دلوایا ہے وہ خدا کے اور پیغمبر کے اور (پیغمبر کے) قرابت والوں کے اور یتیموں کے اور حاجتمندوں کے اور مسافروں کے لئے ہے۔ تاکہ جو لوگ تم میں دولت مند ہیں ان ہی کے ہاتھوں میں نہ پھرتا رہے۔ سو جو چیز تم کو پیغمبر دیں وہ لے لو۔ اور جس سے منع کریں (اس سے) باز رہو۔ اور خدا سے ڈرتے رہو۔ بےشک خدا سخت عذاب دینے والا ہے\u202c', 'Surah Al-Munaafiqoon (The Hypocrites) - Medinan - سورة المنافقون', 'Ayat 10: \u202bوَأَنفِقُوا۟ مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ\u202c', 'Translation: \u202aاور جو (مال) ہم نے تم کو دیا ہے اس میں سے اس (وقت) سے پیشتر خرچ کرلو کہ تم میں سے کسی کی موت آجائے تو (اس وقت) کہنے لگے کہ اے میرے پروردگار تو نے مجھے تھوڑی سی اور مہلت کیوں نہ دی تاکہ میں خیرات کرلیتا اور نیک لوگوں میں داخل ہوجاتا\u202c', 'Surah Al-Muzzammil (The Enshrouded One) - Meccan - سورة المزمل', 'Ayat 20: \u202b۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌۭ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًۭا وَأَعْظَمَ أَجْرًۭا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۢ\u202c', 'Translation: \u202aتمہارا پروردگار خوب جانتا ہے کہ تم اور تمہارے ساتھ کے لوگ (کبھی) دو تہائی رات کے قریب اور (کبھی) آدھی رات اور (کبھی) تہائی رات قیام کیا کرتے ہو۔ اور خدا تو رات اور دن کا اندازہ رکھتا ہے۔ اس نے معلوم کیا کہ تم اس کو نباہ نہ سکو گے تو اس نے تم پر مہربانی کی۔ پس جتنا آسانی سے ہوسکے (اتنا) قرآن پڑھ لیا کرو۔ اس نے جانا کہ تم میں بعض بیمار بھی ہوتے ہیں اور بعض خدا کے فضل (یعنی معاش) کی تلاش میں ملک میں سفر کرتے ہیں اور بعض خدا کی راہ میں لڑتے ہیں۔ تو جتنا آسانی سے ہوسکے اتنا پڑھ لیا کرو۔ اور نماز پڑھتے رہو اور زکوٰة ادا کرتے رہو اور خدا کو نیک (اور خلوص نیت سے) قرض دیتے رہو۔ اور جو عمل نیک تم اپنے لئے آگے بھیجو گے اس کو خدا کے ہاں بہتر اور صلے میں بزرگ تر پاؤ گے۔ اور خدا سے بخشش مانگتے رہو۔ بےشک خدا بخشنے والا مہربان ہے\u202c', 'Surah Al-Lail (The Night) - Meccan - سورة الليل', 'Ayat 18: \u202bٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ\u202c', 'Translation: \u202aجو مال دیتا ہے تاکہ پاک ہو\u202c', 'Ayat 20: \u202bإِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ\u202c', 'Translation: \u202aبلکہ اپنے خداوند اعلیٰ کی رضامندی حاصل کرنے کے لیے دیتا ہے\u202c']
+2025-03-02 18:00:58,991 - root - DEBUG - Grouping ayats by surah.
+2025-03-02 18:01:00,828 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:00,828 - root - INFO - Sending chunked message to #margalla: Ayat 261: ‫مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ‬
+2025-03-02 18:01:00,832 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:02,806 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:02,806 - root - INFO - Sending chunked message to #margalla: Translation: ‪جو لوگ اپنا مال خدا کی راہ میں خرچ کرتے ہیں ان (کے مال) کی مثال اس دانے کی سی ہے جس سے سات بالیں اگیں اور ہر ایک بال میں سو سو دانے ہوں اور خدا جس (کے مال) کو چاہتا ہے زیادہ کرتا ہے۔ وہ بڑی کشائش والا اور سب کچھ جاننے والا ہے‬
+2025-03-02 18:01:02,808 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:04,881 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:04,881 - root - INFO - Sending chunked message to #margalla: Ayat 271: ‫إِن تُبْدُوا۟ ٱلصَّدَقَٰتِ فَنِعِمَّا هِىَ ۖ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌۭ لَّكُمْ ۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ‬
+2025-03-02 18:01:04,883 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:07,051 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:07,052 - root - INFO - Sending chunked message to #margalla: Translation: ‪اگر تم خیرات ظاہر دو تو وہ بھی خوب ہے اور اگر پوشیدہ دو اور دو بھی اہل حاجت کو تو وہ خوب تر ہے اور (اس طرح کا دینا) تمہارے گناہوں کو بھی دور کردے گا۔ اور خدا کو تمہارے سب کاموں کی خبر ہے‬
+2025-03-02 18:01:07,055 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:09,301 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:09,301 - root - INFO - Sending chunked message to #margalla: Ayat 277: ‫إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ‬
+2025-03-02 18:01:09,304 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:11,691 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:11,691 - root - INFO - Sending chunked message to #margalla: Translation: ‪جو لوگ ایمان لائے اور نیک عمل کرتے اور نماز پڑھتے اور زکوٰة دیتے رہے ان کو ان کے کاموں کا صلہ خدا کے ہاں ملے گا اور (قیامت کے دن) ان کو نہ کچھ خوف ہوا اور نہ وہ غمناک ہوں گے‬
+2025-03-02 18:01:11,693 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:14,201 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:14,201 - root - INFO - Sending chunked message to #margalla: Ayat 280: ‫وَإِن كَانَ ذُو عُسْرَةٍۢ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍۢ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌۭ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ‬
+2025-03-02 18:01:14,205 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:16,831 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:16,831 - root - INFO - Sending chunked message to #margalla: Translation: ‪اور اگر قرض لینے والا تنگ دست ہو تو (اسے) کشائش (کے حاصل ہونے) تک مہلت (دو) اور اگر (زر قرض) بخش ہی دو توتمہارے لئے زیادہ اچھا ہے بشرطیکہ سمجھو‬
+2025-03-02 18:01:16,834 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:19,584 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:19,585 - root - INFO - Sending chunked message to #margalla: Ayat 282: ‫يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ‬
+2025-03-02 18:01:19,588 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:22,471 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:25,503 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:28,680 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:32,021 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:32,021 - root - INFO - Sending chunked message to #margalla: Translation: ‪مومنو! جب تم آپس میں کسی میعاد معین کے لئے قرض کا معاملہ کرنے لگو تو اس کو لکھ لیا کرو اور لکھنے والا تم میں (کسی کا نقصان نہ کرے بلکہ) انصاف سے لکھے نیز لکھنے والا جیسا اسے خدا نے سکھایا ہے لکھنے سے انکار بھی نہ کرے اور دستاویز لکھ دے۔ اور جو شخص قرض لے وہی (دستاویز کا) مضمون بول کر لکھوائے اور خدا سے کہ اس کا مالک ہے خوف کرے اور زر قرض میں سے کچھ کم نہ لکھوائے۔ اور اگر قرض لینے والا بےعقل یا ضعیف ہو یا مضمون لکھوانے کی قابلیت نہ رکھتا ہو تو جو اس کا ولی ہو وہ انصاف کے ساتھ مضمون لکھوائے۔ اور اپنے میں سے دو مردوں کو (ایسے معاملے کے) گواہ کرلیا کرو۔ اور اگر دو مرد نہ ہوں تو ایک مرد اور دو عورتیں جن کو تم گواہ پسند کرو (کافی ہیں) کہ اگر ان میں سے ایک بھول جائے گی تو دوسری اسے یاد دلادے گی۔ اور جب گواہ (گواہی کے لئے طلب کئے جائیں تو انکار نہ کریں۔ اور قرض تھوڑا ہو یا بہت اس (کی دستاویز) کے لکھنے میں کاہلی نہ کرنا۔ یہ بات خدا کے نزدیک نہایت قرین انصاف ہے اور شہادت کے لئے بھی یہ بہت درست طریقہ ہے۔ اس سے تمہیں کسی طرح کا شک وہ شبہ بھی نہیں پڑے گا۔ ہاں اگر سودا دست بدست ہو جو تم آپس میں لیتے دیتے ہو تو اگر (ایسے معاملے کی) دستاویز نہ لکھوتو تم پر کچھ گناہ نہیں۔ اور جب خرید وفروخت کیا کرو تو بھی گواہ کرلیا کرو۔ اور کاتب دستاویز اور گواہ (معاملہ کرنے والوں کا) کسی طرح نقصان نہ کریں۔ اگر تم (لوگ) ایسا کرو تو یہ تمہارے لئے گناہ کی بات ہے۔ اور خدا سے ڈرو اور (دیکھو کہ) وہ تم کو (کیسی مفید باتیں) سکھاتا ہے اور خدا ہر چیز سے واقف ہے‬
+2025-03-02 18:01:32,025 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:35,529 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:39,192 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:43,050 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:01:47,097 - root - ERROR - Error sending command: Connection lost
+2025-03-02 18:01:47,099 - root - ERROR - Error processing !Quran command: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-02 18:01:47,101 - root - ERROR - Error sending command: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-02 18:01:47,102 - root - ERROR - Query failed for IntelBug: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-02 18:01:47,102 - root - ERROR - Error sending command: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-02 18:01:47,116 - root - INFO - Cleaning up resources for IntelBug.
+2025-03-02 18:01:47,117 - root - ERROR - Error in IRC connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-02 18:43:45,071 - root - INFO - Starting the bot application.
+2025-03-02 18:43:45,072 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-03-02 18:43:45,074 - root - INFO - Starting the bot...
+2025-03-02 18:43:45,401 - root - INFO - Successfully connected to IRC server.
+2025-03-02 18:43:50,414 - root - DEBUG - Received: :lion.tx.us.dal.net NOTICE AUTH :*** Looking up your hostname...
+2025-03-02 18:43:50,414 - root - DEBUG - Handling message: :lion.tx.us.dal.net NOTICE AUTH :*** Looking up your hostname...
+2025-03-02 18:43:50,415 - root - DEBUG - Received: :lion.tx.us.dal.net NOTICE AUTH :*** Checking Ident
+2025-03-02 18:43:50,416 - root - DEBUG - Handling message: :lion.tx.us.dal.net NOTICE AUTH :*** Checking Ident
+2025-03-02 18:43:50,416 - root - DEBUG - Received: :lion.tx.us.dal.net NOTICE AUTH :*** Found your hostname
+2025-03-02 18:43:50,416 - root - DEBUG - Handling message: :lion.tx.us.dal.net NOTICE AUTH :*** Found your hostname
+2025-03-02 18:44:24,436 - root - DEBUG - Received: :lion.tx.us.dal.net NOTICE AUTH :*** No Ident response
+2025-03-02 18:44:24,438 - root - DEBUG - Handling message: :lion.tx.us.dal.net NOTICE AUTH :*** No Ident response
+2025-03-02 18:44:24,441 - root - DEBUG - Received: :lion.tx.us.dal.net 001 Falah :Welcome to the DALnet IRC Network Falah!~Falah@39.40.48.44
+2025-03-02 18:44:24,442 - root - DEBUG - Handling message: :lion.tx.us.dal.net 001 Falah :Welcome to the DALnet IRC Network Falah!~Falah@39.40.48.44
+2025-03-02 18:44:24,442 - root - INFO - Successfully authenticated with nick: Falah
+2025-03-02 18:44:24,442 - root - INFO - Joining channel: #Margalla
+2025-03-02 18:44:25,954 - root - DEBUG - Received: :lion.tx.us.dal.net 002 Falah :Your host is lion.tx.us.dal.net, running version bahamut-2.2.4
+2025-03-02 18:44:25,955 - root - DEBUG - Handling message: :lion.tx.us.dal.net 002 Falah :Your host is lion.tx.us.dal.net, running version bahamut-2.2.4
+2025-03-02 18:44:25,957 - root - DEBUG - Received: :lion.tx.us.dal.net 003 Falah :This server was created Sat Feb 22 2025 at 12:32:54 EST
+2025-03-02 18:44:25,958 - root - DEBUG - Handling message: :lion.tx.us.dal.net 003 Falah :This server was created Sat Feb 22 2025 at 12:32:54 EST
+2025-03-02 18:44:25,958 - root - DEBUG - Received: :lion.tx.us.dal.net 004 Falah lion.tx.us.dal.net bahamut-2.2.4 aAbcCdefFghHiIjkKmnoOPrRsSwxXy AbceiIjklLmMnoOpPrRsStv beIjklov
+2025-03-02 18:44:25,959 - root - DEBUG - Handling message: :lion.tx.us.dal.net 004 Falah lion.tx.us.dal.net bahamut-2.2.4 aAbcCdefFghHiIjkKmnoOPrRsSwxXy AbceiIjklLmMnoOpPrRsStv beIjklov
+2025-03-02 18:44:25,959 - root - DEBUG - Received: :lion.tx.us.dal.net 005 Falah NETWORK=DALnet SAFELIST MAXBANS=200 MAXCHANNELS=50 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:50 PREFIX=(ohv)@%+ STATUSMSG=@%+ :are available on this server
+2025-03-02 18:44:25,960 - root - DEBUG - Handling message: :lion.tx.us.dal.net 005 Falah NETWORK=DALnet SAFELIST MAXBANS=200 MAXCHANNELS=50 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:50 PREFIX=(ohv)@%+ STATUSMSG=@%+ :are available on this server
+2025-03-02 18:44:25,960 - root - DEBUG - Received: :lion.tx.us.dal.net 005 Falah CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,ciPAmMnOprRsSt MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2025-03-02 18:44:25,961 - root - DEBUG - Handling message: :lion.tx.us.dal.net 005 Falah CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,ciPAmMnOprRsSt MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+2025-03-02 18:44:25,961 - root - DEBUG - Received: :lion.tx.us.dal.net 251 Falah :There are 57 users and 6312 invisible on 39 servers
+2025-03-02 18:44:25,962 - root - DEBUG - Handling message: :lion.tx.us.dal.net 251 Falah :There are 57 users and 6312 invisible on 39 servers
+2025-03-02 18:44:25,962 - root - DEBUG - Received: :lion.tx.us.dal.net 252 Falah 72 :IRC Operators online
+2025-03-02 18:44:25,963 - root - DEBUG - Handling message: :lion.tx.us.dal.net 252 Falah 72 :IRC Operators online
+2025-03-02 18:44:25,963 - root - DEBUG - Received: :lion.tx.us.dal.net 254 Falah 3386 :channels formed
+2025-03-02 18:44:25,964 - root - DEBUG - Handling message: :lion.tx.us.dal.net 254 Falah 3386 :channels formed
+2025-03-02 18:44:25,964 - root - DEBUG - Received: :lion.tx.us.dal.net 255 Falah :I have 577 clients and 1 servers
+2025-03-02 18:44:25,964 - root - DEBUG - Handling message: :lion.tx.us.dal.net 255 Falah :I have 577 clients and 1 servers
+2025-03-02 18:44:25,965 - root - DEBUG - Received: :lion.tx.us.dal.net 265 Falah :Current local users: 577 Max: 1812
+2025-03-02 18:44:25,965 - root - DEBUG - Handling message: :lion.tx.us.dal.net 265 Falah :Current local users: 577 Max: 1812
+2025-03-02 18:44:25,966 - root - DEBUG - Received: :lion.tx.us.dal.net 266 Falah :Current global users: 6369 Max: 8222
+2025-03-02 18:44:25,966 - root - DEBUG - Handling message: :lion.tx.us.dal.net 266 Falah :Current global users: 6369 Max: 8222
+2025-03-02 18:44:25,966 - root - DEBUG - Received: :lion.tx.us.dal.net NOTICE Falah :*** Notice -- motd was last changed at 21/2/2024 4:48
+2025-03-02 18:44:25,967 - root - DEBUG - Handling message: :lion.tx.us.dal.net NOTICE Falah :*** Notice -- motd was last changed at 21/2/2024 4:48
+2025-03-02 18:44:25,967 - root - DEBUG - Received: :lion.tx.us.dal.net 375 Falah :- lion.tx.us.dal.net Message of the Day -
+2025-03-02 18:44:25,967 - root - DEBUG - Handling message: :lion.tx.us.dal.net 375 Falah :- lion.tx.us.dal.net Message of the Day -
+2025-03-02 18:44:25,968 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-21/2/2024 4:48
+2025-03-02 18:44:25,968 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-21/2/2024 4:48
+2025-03-02 18:44:25,968 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      Welcome to,
+2025-03-02 18:44:25,969 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      Welcome to,
+2025-03-02 18:44:25,969 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-       _ _
+2025-03-02 18:44:25,969 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-       _ _
+2025-03-02 18:44:25,970 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      | (_)
+2025-03-02 18:44:25,974 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      | (_)
+2025-03-02 18:44:25,975 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      | |_  ___  _ __
+2025-03-02 18:44:25,975 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      | |_  ___  _ __
+2025-03-02 18:44:25,975 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      | | |/ _ \| '_ \
+2025-03-02 18:44:25,976 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      | | |/ _ \| '_ \
+2025-03-02 18:44:25,976 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      | | | (_) | | | |
+2025-03-02 18:44:25,976 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      | | | (_) | | | |
+2025-03-02 18:44:25,977 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      |_|_|\___/|_| |_|.tx.us.dal.net
+2025-03-02 18:44:25,977 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      |_|_|\___/|_| |_|.tx.us.dal.net
+2025-03-02 18:44:25,978 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,978 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,978 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-       * Host..............: lion.dal.net | lion-v6.dal.net
+2025-03-02 18:44:25,979 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-       * Host..............: lion.dal.net | lion-v6.dal.net
+2025-03-02 18:44:25,979 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-       * Ports.............: 6667 - 6669, 7000 | SSL - 6697
+2025-03-02 18:44:25,979 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-       * Ports.............: 6667 - 6669, 7000 | SSL - 6697
+2025-03-02 18:44:25,980 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,980 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,981 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    Welcome to DALnet, by connecting to this network you agree to
+2025-03-02 18:44:25,981 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    Welcome to DALnet, by connecting to this network you agree to
+2025-03-02 18:44:25,981 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    abide by its acceptable use policy, visit : http://www.dal.net/aup
+2025-03-02 18:44:25,982 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    abide by its acceptable use policy, visit : http://www.dal.net/aup
+2025-03-02 18:44:25,982 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,982 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,983 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-      "This server has been sponsored by Psychz Networks"
+2025-03-02 18:44:25,983 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-      "This server has been sponsored by Psychz Networks"
+2025-03-02 18:44:25,983 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,984 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,984 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-            ---===[https://www.psychz.net/]===---
+2025-03-02 18:44:25,984 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-            ---===[https://www.psychz.net/]===---
+2025-03-02 18:44:25,985 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,985 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,985 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    -------------------------------------------------------------------
+2025-03-02 18:44:25,986 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    -------------------------------------------------------------------
+2025-03-02 18:44:25,990 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    [%] Server Policies  =-
+2025-03-02 18:44:25,991 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    [%] Server Policies  =-
+2025-03-02 18:44:25,991 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,991 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,992 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    a. No spamming or advertising allowed, if found you will be banned
+2025-03-02 18:44:25,992 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    a. No spamming or advertising allowed, if found you will be banned
+2025-03-02 18:44:25,992 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-       from this server/network.
+2025-03-02 18:44:25,993 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-       from this server/network.
+2025-03-02 18:44:25,993 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    b. No malicious bots, including flood and nick/channel chasers
+2025-03-02 18:44:25,993 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    b. No malicious bots, including flood and nick/channel chasers
+2025-03-02 18:44:25,994 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    c. No channel filler bots/clients/psybncs
+2025-03-02 18:44:25,994 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    c. No channel filler bots/clients/psybncs
+2025-03-02 18:44:25,994 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-       #  A channel filler is a client, bnc, or bot which is connected
+2025-03-02 18:44:25,995 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-       #  A channel filler is a client, bnc, or bot which is connected
+2025-03-02 18:44:25,995 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-          just to fill a channel and make it look bigger
+2025-03-02 18:44:25,996 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-          just to fill a channel and make it look bigger
+2025-03-02 18:44:25,996 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    d. Operator impersonation will not be tolerated and cause you to be
+2025-03-02 18:44:25,996 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    d. Operator impersonation will not be tolerated and cause you to be
+2025-03-02 18:44:25,997 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-       banned from this server/network.
+2025-03-02 18:44:25,997 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-       banned from this server/network.
+2025-03-02 18:44:25,997 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,998 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:25,998 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-            "REMEMBER IRC IS A PRIVILEGE, NOT A RIGHT"
+2025-03-02 18:44:25,998 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-            "REMEMBER IRC IS A PRIVILEGE, NOT A RIGHT"
+2025-03-02 18:44:26,000 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,000 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,000 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    --------------------------------------------------------------------
+2025-03-02 18:44:26,000 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    --------------------------------------------------------------------
+2025-03-02 18:44:26,000 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    For IRC Operator assistance /join #Operhelp
+2025-03-02 18:44:26,000 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    For IRC Operator assistance /join #Operhelp
+2025-03-02 18:44:26,001 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,001 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,001 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    For DALnet and General IRC related help, goto #Help
+2025-03-02 18:44:26,007 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    For DALnet and General IRC related help, goto #Help
+2025-03-02 18:44:26,007 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,008 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,008 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    For multi-lingual documentation - [http://docs.dal.net]
+2025-03-02 18:44:26,008 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    For multi-lingual documentation - [http://docs.dal.net]
+2025-03-02 18:44:26,009 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,009 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,009 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    If you have any questions/issues related to this server,
+2025-03-02 18:44:26,010 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    If you have any questions/issues related to this server,
+2025-03-02 18:44:26,010 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    contact us using: lion-staff@dal.net
+2025-03-02 18:44:26,011 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    contact us using: lion-staff@dal.net
+2025-03-02 18:44:26,011 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,011 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-
+2025-03-02 18:44:26,012 - root - DEBUG - Received: :lion.tx.us.dal.net 372 Falah :-    Thank you, hope you enjoy your stay!
+2025-03-02 18:44:26,012 - root - DEBUG - Handling message: :lion.tx.us.dal.net 372 Falah :-    Thank you, hope you enjoy your stay!
+2025-03-02 18:44:26,012 - root - DEBUG - Received: :lion.tx.us.dal.net 376 Falah :End of /MOTD command.
+2025-03-02 18:44:26,013 - root - DEBUG - Handling message: :lion.tx.us.dal.net 376 Falah :End of /MOTD command.
+2025-03-02 18:44:26,013 - root - DEBUG - Received: :Falah MODE Falah :+iH
+2025-03-02 18:44:26,013 - root - DEBUG - Handling message: :Falah MODE Falah :+iH
+2025-03-02 18:44:26,014 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :This nick is owned by someone else. Please choose another.
+2025-03-02 18:44:26,014 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :This nick is owned by someone else. Please choose another.
+2025-03-02 18:44:26,014 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :If this is your nick, type: /msg NickServ@services.dal.net IDENTIFY <password>
+2025-03-02 18:44:26,015 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :If this is your nick, type: /msg NickServ@services.dal.net IDENTIFY <password>
+2025-03-02 18:44:26,015 - root - DEBUG - Received: :Falah!~Falah@4597-4d97-1523-557c-be10.40.39.ip JOIN :#Margalla
+2025-03-02 18:44:26,016 - root - DEBUG - Handling message: :Falah!~Falah@4597-4d97-1523-557c-be10.40.39.ip JOIN :#Margalla
+2025-03-02 18:44:26,016 - root - DEBUG - Received: :lion.tx.us.dal.net 332 Falah #Margalla :Welcome to #Margalla! Type '!Quran' and your query to learn and find answers from Quran!
+2025-03-02 18:44:26,016 - root - DEBUG - Handling message: :lion.tx.us.dal.net 332 Falah #Margalla :Welcome to #Margalla! Type '!Quran' and your query to learn and find answers from Quran!
+2025-03-02 18:44:26,017 - root - DEBUG - Received: :lion.tx.us.dal.net 333 Falah #Margalla IntelBug!~IntelBug@71a4-27a2-c57f-23b5-526.40.39.ip 1740215519
+2025-03-02 18:44:26,017 - root - DEBUG - Handling message: :lion.tx.us.dal.net 333 Falah #Margalla IntelBug!~IntelBug@71a4-27a2-c57f-23b5-526.40.39.ip 1740215519
+2025-03-02 18:44:26,017 - root - DEBUG - Received: :lion.tx.us.dal.net 353 Falah = #Margalla :Falah @IntelBug Al-Falah_ @Cheer
+2025-03-02 18:44:26,018 - root - DEBUG - Handling message: :lion.tx.us.dal.net 353 Falah = #Margalla :Falah @IntelBug Al-Falah_ @Cheer
+2025-03-02 18:44:26,022 - root - DEBUG - Received: :lion.tx.us.dal.net 366 Falah #Margalla :End of /NAMES list.
+2025-03-02 18:44:26,023 - root - DEBUG - Handling message: :lion.tx.us.dal.net 366 Falah #Margalla :End of /NAMES list.
+2025-03-02 18:44:26,023 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :Your nick will be changed in 60 seconds if you do not comply.
+2025-03-02 18:44:26,024 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :Your nick will be changed in 60 seconds if you do not comply.
+2025-03-02 18:44:26,024 - root - DEBUG - Received: :NickServ!service@dal.net NOTICE Falah :Password accepted for Falah.
+2025-03-02 18:44:26,024 - root - DEBUG - Handling message: :NickServ!service@dal.net NOTICE Falah :Password accepted for Falah.
+2025-03-02 18:44:26,025 - root - DEBUG - Received: :Falah MODE Falah :+r
+2025-03-02 18:44:26,025 - root - DEBUG - Handling message: :Falah MODE Falah :+r
+2025-03-02 18:44:26,025 - root - DEBUG - Received: :ChanServ!service@dal.net MODE #Margalla +o Falah
+2025-03-02 18:44:26,026 - root - DEBUG - Handling message: :ChanServ!service@dal.net MODE #Margalla +o Falah
+2025-03-02 18:44:26,074 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #Margalla :Salam and welcome back, Falah!
+2025-03-02 18:44:26,075 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #Margalla :Salam and welcome back, Falah!
+2025-03-02 18:44:26,077 - root - DEBUG - Parsed nick from prefix: Cheer
+2025-03-02 18:44:26,077 - root - DEBUG - Parsed sender_nick: Cheer
+2025-03-02 18:44:26,078 - root - DEBUG - Parsed PM/msg: Cheer -> #Margalla: Salam and welcome back, Falah!
+2025-03-02 18:44:26,078 - root - DEBUG - Processing message: nick=Cheer, channel=#Margalla, message=Salam and welcome back, Falah!
+2025-03-02 18:44:26,145 - root - INFO - Handling help command from Cheer in Cheer.
+2025-03-02 18:44:26,145 - root - INFO - Sending chunked message to Cheer: Assalam-o-Alaikum! I am here to provide very easy and authentic Qur'an Search. Just type !Quran <any Surah name, Ayat content, topic, keywords, or question> to find relevant Surah and Ayaat in 37 languages.
+2025-03-02 18:44:26,148 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 18:44:27,781 - root - INFO - Sending chunked message to Cheer: To mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. You can also use !stop to stop the result. Have your blessed time on IRC :)
+2025-03-02 18:44:27,782 - root - DEBUG - Checking if query should be cancelled for Cheer.
+2025-03-02 18:44:29,507 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "Assalam-o-Alaikum!" is not a valid command.
+2025-03-02 18:44:29,508 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "Assalam-o-Alaikum!" is not a valid command.
+2025-03-02 18:44:30,108 - root - DEBUG - Received: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "To" is not a valid command.
+2025-03-02 18:44:30,109 - root - DEBUG - Handling message: :Cheer!~cheerful@29e9-e210-91d1-8838-d510.181.108.ip NOTICE Falah :Error: "To" is not a valid command.
+2025-03-02 18:44:35,418 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 18:44:35,419 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 18:44:35,422 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 18:44:35,423 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 18:44:35,423 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !counts
+2025-03-02 18:44:35,424 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!counts
+2025-03-02 18:44:35,490 - root - INFO - Handling help command from IntelBug in IntelBug.
+2025-03-02 18:44:35,491 - root - INFO - Sending chunked message to IntelBug: Assalam-o-Alaikum! I am here to provide very easy and authentic Qur'an Search. Just type !Quran <any Surah name, Ayat content, topic, keywords, or question> to find relevant Surah and Ayaat in 37 languages.
+2025-03-02 18:44:35,493 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:44:37,286 - root - INFO - Sending chunked message to IntelBug: To mention your preferred language e.g. !Quran Surah Al-Fateha in Urdu. You can also use !stop to stop the result. Have your blessed time on IRC :)
+2025-03-02 18:44:37,287 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:44:39,176 - root - INFO - Handling counts command from IntelBug in IntelBug.
+2025-03-02 18:44:39,177 - root - DEBUG - Checking ownership: received nick='IntelBug', configured owner='IntelBug'
+2025-03-02 18:45:04,238 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!Quran maaun urdu
+2025-03-02 18:45:04,239 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG #margalla :!Quran maaun urdu
+2025-03-02 18:45:04,243 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 18:45:04,243 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 18:45:04,243 - root - DEBUG - Parsed PM/msg: IntelBug -> #margalla: !Quran maaun urdu
+2025-03-02 18:45:04,244 - root - DEBUG - Processing message: nick=IntelBug, channel=#margalla, message=!Quran maaun urdu
+2025-03-02 18:45:04,309 - root - INFO - Handling !Quran command from IntelBug in #margalla with query: maaun urdu
+2025-03-02 18:45:04,309 - root - INFO - Processing query for IntelBug in #margalla with query: maaun urdu
+2025-03-02 18:45:06,346 - root - INFO - Sending structured query to AI: {'model': 'mistral-small-latest', 'messages': [{'role': 'system', 'content': "Return only Surah and Ayat number(s) of the Ayat(s) relevant to the query in the below format: Language: ISO code:Unicode Direction; Surah Number: Ayat Number, Surah Number: Ayat Number, Surah Number: Ayat Number. Example: Language: ur:RTL; 108:10, 8:12, 10:20. Return all Ayats of a Surah in sequence if the query specifies so. Result must contain unique Ayats of a Surah and do not repeat Ayat of the same Surah in a result. Must return accurate results and ensure moderation for the criticality of religious information. Query and result mapping shall start with Surah name, Ayat content, Ayat meaning and then Tafseer to get a complete context. Don't include Ayat content and other information in the response. Mention the ISO language code and Right-to-Left flag e.g. RTL or LTR of query used by the user e.g. Language: en:LTR."}, {'role': 'user', 'content': 'maaun urdu'}]}
+2025-03-02 18:45:08,062 - root - INFO - Received response from AI: {'id': 'ee21da3adaa64d9aac1bc2ca610ccedb', 'object': 'chat.completion', 'created': 1740923107, 'model': 'mistral-small-latest', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'tool_calls': None, 'content': 'Language: ur:RTL; 107:1, 107:2, 107:3, 107:4, 107:5, 107:6, 107:7.'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 230, 'total_tokens': 286, 'completion_tokens': 56}}
+2025-03-02 18:45:08,063 - root - INFO - Parsing AI response: Language: ur:RTL; 107:1, 107:2, 107:3, 107:4, 107:5, 107:6, 107:7.
+2025-03-02 18:45:08,065 - root - INFO - Extracted language: ur, RTL: True
+2025-03-02 18:45:08,066 - root - INFO - Extracted Surah:Ayat pair: 107:1
+2025-03-02 18:45:08,067 - root - INFO - Extracted Surah:Ayat pair: 107:2
+2025-03-02 18:45:08,067 - root - INFO - Extracted Surah:Ayat pair: 107:3
+2025-03-02 18:45:08,067 - root - INFO - Extracted Surah:Ayat pair: 107:4
+2025-03-02 18:45:08,068 - root - INFO - Extracted Surah:Ayat pair: 107:5
+2025-03-02 18:45:08,068 - root - INFO - Extracted Surah:Ayat pair: 107:6
+2025-03-02 18:45:08,068 - root - INFO - Extracted Surah:Ayat pair: 107:7
+2025-03-02 18:45:08,070 - root - INFO - All extracted Ayats: [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)]
+2025-03-02 18:45:08,071 - root - INFO - Received AI response: {'language': 'ur', 'rtl': True, 'ayats': [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)]}
+2025-03-02 18:45:08,072 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:08,072 - root - INFO - Extracted language: ur, RTL: True, Ayats: [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)]
+2025-03-02 18:45:08,072 - root - INFO - Fetching Ayats for pairs: [(107, 1), (107, 2), (107, 3), (107, 4), (107, 5), (107, 6), (107, 7)] in language: ur
+2025-03-02 18:45:08,119 - root - INFO - Completed fetching and formatting Ayats: ["Surah Al-Maa'un (Almsgiving) - Meccan - سورة الماعون", 'Ayat 1: \u202bبِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ\u202c', 'Translation: \u202aبھلا تم نے اس شخص کو دیکھا جو (روزِ) جزا کو جھٹلاتا ہے؟\u202c', 'Ayat 2: \u202bفَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ\u202c', 'Translation: \u202aیہ وہی (بدبخت) ہے، جو یتیم کو دھکے دیتا ہے\u202c', 'Ayat 3: \u202bوَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ\u202c', 'Translation: \u202aاور فقیر کو کھانا کھلانے کے لیے (لوگوں کو) ترغیب نہیں دیتا\u202c', 'Ayat 4: \u202bفَوَيْلٌۭ لِّلْمُصَلِّينَ\u202c', 'Translation: \u202aتو ایسے نمازیوں کی خرابی ہے\u202c', 'Ayat 5: \u202bٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ\u202c', 'Translation: \u202aجو نماز کی طرف سے غافل رہتے ہیں\u202c', 'Ayat 6: \u202bٱلَّذِينَ هُمْ يُرَآءُونَ\u202c', 'Translation: \u202aجو ریا کاری کرتے ہیں\u202c', 'Ayat 7: \u202bوَيَمْنَعُونَ ٱلْمَاعُونَ\u202c', 'Translation: \u202aاور برتنے کی چیزیں عاریتہً نہیں دیتے\u202c']
+2025-03-02 18:45:08,120 - root - INFO - Formatted response from database: ["Surah Al-Maa'un (Almsgiving) - Meccan - سورة الماعون", 'Ayat 1: \u202bبِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ\u202c', 'Translation: \u202aبھلا تم نے اس شخص کو دیکھا جو (روزِ) جزا کو جھٹلاتا ہے؟\u202c', 'Ayat 2: \u202bفَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ\u202c', 'Translation: \u202aیہ وہی (بدبخت) ہے، جو یتیم کو دھکے دیتا ہے\u202c', 'Ayat 3: \u202bوَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ\u202c', 'Translation: \u202aاور فقیر کو کھانا کھلانے کے لیے (لوگوں کو) ترغیب نہیں دیتا\u202c', 'Ayat 4: \u202bفَوَيْلٌۭ لِّلْمُصَلِّينَ\u202c', 'Translation: \u202aتو ایسے نمازیوں کی خرابی ہے\u202c', 'Ayat 5: \u202bٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ\u202c', 'Translation: \u202aجو نماز کی طرف سے غافل رہتے ہیں\u202c', 'Ayat 6: \u202bٱلَّذِينَ هُمْ يُرَآءُونَ\u202c', 'Translation: \u202aجو ریا کاری کرتے ہیں\u202c', 'Ayat 7: \u202bوَيَمْنَعُونَ ٱلْمَاعُونَ\u202c', 'Translation: \u202aاور برتنے کی چیزیں عاریتہً نہیں دیتے\u202c']
+2025-03-02 18:45:08,122 - root - DEBUG - Grouping ayats by surah.
+2025-03-02 18:45:10,239 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:10,239 - root - INFO - Sending chunked message to #margalla: Ayat 1: ‫بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ‬
+2025-03-02 18:45:10,244 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:12,515 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:12,515 - root - INFO - Sending chunked message to #margalla: Translation: ‪بھلا تم نے اس شخص کو دیکھا جو (روزِ) جزا کو جھٹلاتا ہے؟‬
+2025-03-02 18:45:12,517 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:14,910 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:14,910 - root - INFO - Sending chunked message to #margalla: Ayat 2: ‫فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ‬
+2025-03-02 18:45:14,912 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:17,387 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:17,387 - root - INFO - Sending chunked message to #margalla: Translation: ‪یہ وہی (بدبخت) ہے، جو یتیم کو دھکے دیتا ہے‬
+2025-03-02 18:45:17,391 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:20,017 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:20,017 - root - INFO - Sending chunked message to #margalla: Ayat 3: ‫وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ‬
+2025-03-02 18:45:20,019 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:22,775 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:22,775 - root - INFO - Sending chunked message to #margalla: Translation: ‪اور فقیر کو کھانا کھلانے کے لیے (لوگوں کو) ترغیب نہیں دیتا‬
+2025-03-02 18:45:22,779 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:25,672 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:25,672 - root - INFO - Sending chunked message to #margalla: Ayat 4: ‫فَوَيْلٌۭ لِّلْمُصَلِّينَ‬
+2025-03-02 18:45:25,674 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:28,697 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:28,698 - root - INFO - Sending chunked message to #margalla: Translation: ‪تو ایسے نمازیوں کی خرابی ہے‬
+2025-03-02 18:45:28,701 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:31,866 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:31,866 - root - INFO - Sending chunked message to #margalla: Ayat 5: ‫ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ‬
+2025-03-02 18:45:31,867 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:35,198 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:35,198 - root - INFO - Sending chunked message to #margalla: Translation: ‪جو نماز کی طرف سے غافل رہتے ہیں‬
+2025-03-02 18:45:35,200 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:38,692 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:38,693 - root - INFO - Sending chunked message to #margalla: Ayat 6: ‫ٱلَّذِينَ هُمْ يُرَآءُونَ‬
+2025-03-02 18:45:38,694 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:42,370 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:42,371 - root - INFO - Sending chunked message to #margalla: Translation: ‪جو ریا کاری کرتے ہیں‬
+2025-03-02 18:45:42,374 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:46,233 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:46,234 - root - INFO - Sending chunked message to #margalla: Ayat 7: ‫وَيَمْنَعُونَ ٱلْمَاعُونَ‬
+2025-03-02 18:45:46,236 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:50,244 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:50,245 - root - INFO - Sending chunked message to #margalla: Translation: ‪اور برتنے کی چیزیں عاریتہً نہیں دیتے‬
+2025-03-02 18:45:50,248 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:45:58,918 - root - INFO - Cleaning up resources for IntelBug.
+2025-03-02 18:45:58,918 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :Your query has been queued. You will receive a response shortly.
+2025-03-02 18:45:58,922 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :Your query has been queued. You will receive a response shortly.
+2025-03-02 18:45:58,922 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 18:45:58,922 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 18:45:58,923 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: Your query has been queued. You will receive a response shortly.
+2025-03-02 18:45:58,923 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=Your query has been queued. You will receive a response shortly.
+2025-03-02 18:45:58,952 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 18:45:58,953 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip PRIVMSG #margalla :The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 18:45:58,955 - root - DEBUG - Parsed nick from prefix: Al-Falah_
+2025-03-02 18:45:58,955 - root - DEBUG - Parsed sender_nick: Al-Falah_
+2025-03-02 18:45:58,956 - root - DEBUG - Parsed PM/msg: Al-Falah_ -> #margalla: The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 18:45:58,956 - root - DEBUG - Processing message: nick=Al-Falah_, channel=#margalla, message=The possible result(s) for the query has been processed. It is always the best approach to cross-check from other authentic sources too.
+2025-03-02 18:46:34,335 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!Quran al qareya urdu
+2025-03-02 18:46:34,335 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!Quran al qareya urdu
+2025-03-02 18:46:34,339 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 18:46:34,340 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 18:46:34,340 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !Quran al qareya urdu
+2025-03-02 18:46:34,340 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!Quran al qareya urdu
+2025-03-02 18:46:34,407 - root - INFO - Handling !Quran command from IntelBug in IntelBug with query: al qareya urdu
+2025-03-02 18:46:34,407 - root - INFO - Processing query for IntelBug in IntelBug with query: al qareya urdu
+2025-03-02 18:46:39,023 - root - INFO - Sending structured query to AI: {'model': 'mistral-small-latest', 'messages': [{'role': 'system', 'content': "Return only Surah and Ayat number(s) of the Ayat(s) relevant to the query in the below format: Language: ISO code:Unicode Direction; Surah Number: Ayat Number, Surah Number: Ayat Number, Surah Number: Ayat Number. Example: Language: ur:RTL; 108:10, 8:12, 10:20. Return all Ayats of a Surah in sequence if the query specifies so. Result must contain unique Ayats of a Surah and do not repeat Ayat of the same Surah in a result. Must return accurate results and ensure moderation for the criticality of religious information. Query and result mapping shall start with Surah name, Ayat content, Ayat meaning and then Tafseer to get a complete context. Don't include Ayat content and other information in the response. Mention the ISO language code and Right-to-Left flag e.g. RTL or LTR of query used by the user e.g. Language: en:LTR."}, {'role': 'user', 'content': 'al qareya urdu'}]}
+2025-03-02 18:46:40,631 - root - INFO - Received response from AI: {'id': '49cfa685bbf84c209a209aeabab3c449', 'object': 'chat.completion', 'created': 1740923200, 'model': 'mistral-small-latest', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'tool_calls': None, 'content': 'Language: ur:RTL; 101:1, 101:2, 101:3, 101:4, 101:5, 101:6, 101:7, 101:8, 101:9, 101:10, 101:11'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 232, 'total_tokens': 317, 'completion_tokens': 85}}
+2025-03-02 18:46:40,632 - root - INFO - Parsing AI response: Language: ur:RTL; 101:1, 101:2, 101:3, 101:4, 101:5, 101:6, 101:7, 101:8, 101:9, 101:10, 101:11
+2025-03-02 18:46:40,636 - root - INFO - Extracted language: ur, RTL: True
+2025-03-02 18:46:40,636 - root - INFO - Extracted Surah:Ayat pair: 101:1
+2025-03-02 18:46:40,636 - root - INFO - Extracted Surah:Ayat pair: 101:2
+2025-03-02 18:46:40,637 - root - INFO - Extracted Surah:Ayat pair: 101:3
+2025-03-02 18:46:40,638 - root - INFO - Extracted Surah:Ayat pair: 101:4
+2025-03-02 18:46:40,638 - root - INFO - Extracted Surah:Ayat pair: 101:5
+2025-03-02 18:46:40,638 - root - INFO - Extracted Surah:Ayat pair: 101:6
+2025-03-02 18:46:40,639 - root - INFO - Extracted Surah:Ayat pair: 101:7
+2025-03-02 18:46:40,639 - root - INFO - Extracted Surah:Ayat pair: 101:8
+2025-03-02 18:46:40,639 - root - INFO - Extracted Surah:Ayat pair: 101:9
+2025-03-02 18:46:40,640 - root - INFO - Extracted Surah:Ayat pair: 101:10
+2025-03-02 18:46:40,640 - root - INFO - Extracted Surah:Ayat pair: 101:11
+2025-03-02 18:46:40,640 - root - INFO - All extracted Ayats: [(101, 1), (101, 2), (101, 3), (101, 4), (101, 5), (101, 6), (101, 7), (101, 8), (101, 9), (101, 10), (101, 11)]
+2025-03-02 18:46:40,641 - root - INFO - Received AI response: {'language': 'ur', 'rtl': True, 'ayats': [(101, 1), (101, 2), (101, 3), (101, 4), (101, 5), (101, 6), (101, 7), (101, 8), (101, 9), (101, 10), (101, 11)]}
+2025-03-02 18:46:40,642 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:46:40,642 - root - INFO - Extracted language: ur, RTL: True, Ayats: [(101, 1), (101, 2), (101, 3), (101, 4), (101, 5), (101, 6), (101, 7), (101, 8), (101, 9), (101, 10), (101, 11)]
+2025-03-02 18:46:40,643 - root - INFO - Fetching Ayats for pairs: [(101, 1), (101, 2), (101, 3), (101, 4), (101, 5), (101, 6), (101, 7), (101, 8), (101, 9), (101, 10), (101, 11)] in language: ur
+2025-03-02 18:46:40,711 - root - INFO - Completed fetching and formatting Ayats: ["Surah Al-Qaari'a (The Calamity) - Meccan - سورة القارعة", 'Ayat 1: \u202bبِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ\u202c', 'Translation: \u202aکھڑ کھڑانے والی\u202c', 'Ayat 2: \u202bمَا ٱلْقَارِعَةُ\u202c', 'Translation: \u202aکھڑ کھڑانے والی کیا ہے؟\u202c', 'Ayat 3: \u202bوَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ\u202c', 'Translation: \u202aاور تم کیا جانوں کھڑ کھڑانے والی کیا ہے؟\u202c', 'Ayat 4: \u202bيَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ\u202c', 'Translation: \u202a(وہ قیامت ہے) جس دن لوگ ایسے ہوں گے جیسے بکھرے ہوئے پتنگے\u202c', 'Ayat 5: \u202bوَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ\u202c', 'Translation: \u202aاور پہاڑ ایسے ہو جائیں گے جیسے دھنکی ہوئی رنگ برنگ کی اون\u202c', 'Ayat 6: \u202bفَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ\u202c', 'Translation: \u202aتو جس کے (اعمال کے) وزن بھاری نکلیں گے\u202c', 'Ayat 7: \u202bفَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ\u202c', 'Translation: \u202aوہ دل پسند عیش میں ہو گا\u202c', 'Ayat 8: \u202bوَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ\u202c', 'Translation: \u202aاور جس کے وزن ہلکے نکلیں گے\u202c', 'Ayat 9: \u202bفَأُمُّهُۥ هَاوِيَةٌۭ\u202c', 'Translation: \u202aاس کا مرجع ہاویہ ہے\u202c', 'Ayat 10: \u202bوَمَآ أَدْرَىٰكَ مَا هِيَهْ\u202c', 'Translation: \u202aاور تم کیا سمجھے کہ ہاویہ کیا چیز ہے؟\u202c', 'Ayat 11: \u202bنَارٌ حَامِيَةٌۢ\u202c', 'Translation: \u202aدہکتی ہوئی آگ ہے\u202c']
+2025-03-02 18:46:40,712 - root - INFO - Formatted response from database: ["Surah Al-Qaari'a (The Calamity) - Meccan - سورة القارعة", 'Ayat 1: \u202bبِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ\u202c', 'Translation: \u202aکھڑ کھڑانے والی\u202c', 'Ayat 2: \u202bمَا ٱلْقَارِعَةُ\u202c', 'Translation: \u202aکھڑ کھڑانے والی کیا ہے؟\u202c', 'Ayat 3: \u202bوَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ\u202c', 'Translation: \u202aاور تم کیا جانوں کھڑ کھڑانے والی کیا ہے؟\u202c', 'Ayat 4: \u202bيَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ\u202c', 'Translation: \u202a(وہ قیامت ہے) جس دن لوگ ایسے ہوں گے جیسے بکھرے ہوئے پتنگے\u202c', 'Ayat 5: \u202bوَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ\u202c', 'Translation: \u202aاور پہاڑ ایسے ہو جائیں گے جیسے دھنکی ہوئی رنگ برنگ کی اون\u202c', 'Ayat 6: \u202bفَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ\u202c', 'Translation: \u202aتو جس کے (اعمال کے) وزن بھاری نکلیں گے\u202c', 'Ayat 7: \u202bفَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ\u202c', 'Translation: \u202aوہ دل پسند عیش میں ہو گا\u202c', 'Ayat 8: \u202bوَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ\u202c', 'Translation: \u202aاور جس کے وزن ہلکے نکلیں گے\u202c', 'Ayat 9: \u202bفَأُمُّهُۥ هَاوِيَةٌۭ\u202c', 'Translation: \u202aاس کا مرجع ہاویہ ہے\u202c', 'Ayat 10: \u202bوَمَآ أَدْرَىٰكَ مَا هِيَهْ\u202c', 'Translation: \u202aاور تم کیا سمجھے کہ ہاویہ کیا چیز ہے؟\u202c', 'Ayat 11: \u202bنَارٌ حَامِيَةٌۢ\u202c', 'Translation: \u202aدہکتی ہوئی آگ ہے\u202c']
+2025-03-02 18:46:40,715 - root - DEBUG - Grouping ayats by surah.
+2025-03-02 18:46:45,556 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:46:45,556 - root - INFO - Sending chunked message to IntelBug: Ayat 1: ‫بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ‬
+2025-03-02 18:46:45,559 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:46:50,622 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:46:50,622 - root - INFO - Sending chunked message to IntelBug: Translation: ‪کھڑ کھڑانے والی‬
+2025-03-02 18:46:50,626 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:46:55,686 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:46:55,686 - root - INFO - Sending chunked message to IntelBug: Ayat 2: ‫مَا ٱلْقَارِعَةُ‬
+2025-03-02 18:46:55,690 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:00,750 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:00,751 - root - INFO - Sending chunked message to IntelBug: Translation: ‪کھڑ کھڑانے والی کیا ہے؟‬
+2025-03-02 18:47:00,754 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:05,811 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:05,811 - root - INFO - Sending chunked message to IntelBug: Ayat 3: ‫وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ‬
+2025-03-02 18:47:05,815 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:10,876 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:10,876 - root - INFO - Sending chunked message to IntelBug: Translation: ‪اور تم کیا جانوں کھڑ کھڑانے والی کیا ہے؟‬
+2025-03-02 18:47:10,879 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:15,943 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:15,944 - root - INFO - Sending chunked message to IntelBug: Ayat 4: ‫يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ‬
+2025-03-02 18:47:15,947 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:21,002 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:21,002 - root - INFO - Sending chunked message to IntelBug: Translation: ‪(وہ قیامت ہے) جس دن لوگ ایسے ہوں گے جیسے بکھرے ہوئے پتنگے‬
+2025-03-02 18:47:21,005 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:26,064 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:26,064 - root - INFO - Sending chunked message to IntelBug: Ayat 5: ‫وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ‬
+2025-03-02 18:47:26,067 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:31,119 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:31,120 - root - INFO - Sending chunked message to IntelBug: Translation: ‪اور پہاڑ ایسے ہو جائیں گے جیسے دھنکی ہوئی رنگ برنگ کی اون‬
+2025-03-02 18:47:31,123 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:36,190 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:36,191 - root - INFO - Sending chunked message to IntelBug: Ayat 6: ‫فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ‬
+2025-03-02 18:47:36,194 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:41,214 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:41,216 - root - INFO - Sending chunked message to IntelBug: Translation: ‪تو جس کے (اعمال کے) وزن بھاری نکلیں گے‬
+2025-03-02 18:47:41,219 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:46,251 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:46,251 - root - INFO - Sending chunked message to IntelBug: Ayat 7: ‫فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ‬
+2025-03-02 18:47:46,255 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:51,278 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:51,279 - root - INFO - Sending chunked message to IntelBug: Translation: ‪وہ دل پسند عیش میں ہو گا‬
+2025-03-02 18:47:51,283 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:56,337 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:47:56,338 - root - INFO - Sending chunked message to IntelBug: Ayat 8: ‫وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ‬
+2025-03-02 18:47:56,341 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:01,402 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:01,403 - root - INFO - Sending chunked message to IntelBug: Translation: ‪اور جس کے وزن ہلکے نکلیں گے‬
+2025-03-02 18:48:01,406 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:06,468 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:06,468 - root - INFO - Sending chunked message to IntelBug: Ayat 9: ‫فَأُمُّهُۥ هَاوِيَةٌۭ‬
+2025-03-02 18:48:06,471 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:11,531 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:11,531 - root - INFO - Sending chunked message to IntelBug: Translation: ‪اس کا مرجع ہاویہ ہے‬
+2025-03-02 18:48:11,534 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:16,591 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:16,591 - root - INFO - Sending chunked message to IntelBug: Ayat 10: ‫وَمَآ أَدْرَىٰكَ مَا هِيَهْ‬
+2025-03-02 18:48:16,594 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:21,658 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:21,659 - root - INFO - Sending chunked message to IntelBug: Translation: ‪اور تم کیا سمجھے کہ ہاویہ کیا چیز ہے؟‬
+2025-03-02 18:48:21,662 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:26,727 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:26,728 - root - INFO - Sending chunked message to IntelBug: Ayat 11: ‫نَارٌ حَامِيَةٌۢ‬
+2025-03-02 18:48:26,731 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:31,784 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:31,785 - root - INFO - Sending chunked message to IntelBug: Translation: ‪دہکتی ہوئی آگ ہے‬
+2025-03-02 18:48:31,788 - root - DEBUG - Checking if query should be cancelled for IntelBug.
+2025-03-02 18:48:41,854 - root - INFO - Sending channel invite to IntelBug after successful query.
+2025-03-02 18:48:46,923 - root - INFO - Cleaning up resources for IntelBug.
+2025-03-02 18:48:52,423 - root - DEBUG - Received: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 18:48:52,424 - root - DEBUG - Handling message: :IntelBug!~IntelBug@4597-4d97-1523-557c-be10.40.39.ip PRIVMSG Falah :!counts
+2025-03-02 18:48:52,428 - root - DEBUG - Parsed nick from prefix: IntelBug
+2025-03-02 18:48:52,428 - root - DEBUG - Parsed sender_nick: IntelBug
+2025-03-02 18:48:52,429 - root - DEBUG - Parsed PM/msg: IntelBug -> Falah: !counts
+2025-03-02 18:48:52,429 - root - DEBUG - Processing message: nick=IntelBug, channel=Falah, message=!counts
+2025-03-02 18:48:52,496 - root - INFO - Handling counts command from IntelBug in IntelBug.
+2025-03-02 18:48:52,497 - root - DEBUG - Checking ownership: received nick='IntelBug', configured owner='IntelBug'
+2025-03-02 18:51:50,305 - root - DEBUG - Received: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip QUIT :Client closed connection
+2025-03-02 18:51:50,306 - root - DEBUG - Handling message: :Al-Falah_!~Al-Falah@29e9-e210-91d1-8838-d510.181.108.ip QUIT :Client closed connection
+2025-03-02 18:52:06,309 - root - DEBUG - Received: ERROR :Closing Link: 39.40.48.44 (SVSKilled: Recover command used by Falah_!~Falah@29e9-e210-91d1-8838-d510.181.108.ip)
+2025-03-02 18:52:06,310 - root - DEBUG - Handling message: ERROR :Closing Link: 39.40.48.44 (SVSKilled: Recover command used by Falah_!~Falah@29e9-e210-91d1-8838-d510.181.108.ip)
