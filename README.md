@@ -1,4 +1,4 @@
-# Quran-AI-Bot (Python)
+# Quran-AI-Bot (Python, SQLite)
 An IRC bot based on AI and locally stored database to provide very easy and authentic Qur'an Search. It will return Qur'anic Ayaat (Verses) based on topic, keywords, Surah name, Ayat content and questions. A very useful tool to find Quanic Ayaat against your query!
 
 # Features 
